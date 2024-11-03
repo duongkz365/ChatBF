@@ -1,0 +1,532 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\01d18bd3-3bc2-4e25-8521-2732fd1e431d_Screenshot 2024-08-06 220146.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ChatBE</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ChatBE</BasePath>
+      <RelativePath>uploads/01d18bd3-3bc2-4e25-8521-2732fd1e431d_Screenshot 2024-08-06 220146.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\01d18bd3-3bc2-4e25-8521-2732fd1e431d_Screenshot 2024-08-06 220146.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\06f0ea7c-54bc-4252-b2dd-e6aa60d5393f_0f25804f-aa29-4436-94d9-a5da8d5436b1.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ChatBE</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ChatBE</BasePath>
+      <RelativePath>uploads/06f0ea7c-54bc-4252-b2dd-e6aa60d5393f_0f25804f-aa29-4436-94d9-a5da8d5436b1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\06f0ea7c-54bc-4252-b2dd-e6aa60d5393f_0f25804f-aa29-4436-94d9-a5da8d5436b1.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\08bef30f-a3f3-4c2c-a5db-b4409aa5365d_ThoiKhoaBieu.pdf))">
+      <SourceType>Package</SourceType>
+      <SourceId>ChatBE</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ChatBE</BasePath>
+      <RelativePath>uploads/08bef30f-a3f3-4c2c-a5db-b4409aa5365d_ThoiKhoaBieu.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\08bef30f-a3f3-4c2c-a5db-b4409aa5365d_ThoiKhoaBieu.pdf))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\0c66edfe-d8f7-42d5-ad4f-e2940ff1729e_Screenshot 2024-08-06 220146.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ChatBE</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ChatBE</BasePath>
+      <RelativePath>uploads/0c66edfe-d8f7-42d5-ad4f-e2940ff1729e_Screenshot 2024-08-06 220146.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\0c66edfe-d8f7-42d5-ad4f-e2940ff1729e_Screenshot 2024-08-06 220146.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\19ed7ec6-6de0-4e79-a3c9-54d87f1054b5_Screenshot 2024-08-06 220146.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ChatBE</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ChatBE</BasePath>
+      <RelativePath>uploads/19ed7ec6-6de0-4e79-a3c9-54d87f1054b5_Screenshot 2024-08-06 220146.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\19ed7ec6-6de0-4e79-a3c9-54d87f1054b5_Screenshot 2024-08-06 220146.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\21fcf6fc-bbbe-4ae8-870d-44564b5e3ca2_Screenshot 2024-08-06 220146.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ChatBE</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ChatBE</BasePath>
+      <RelativePath>uploads/21fcf6fc-bbbe-4ae8-870d-44564b5e3ca2_Screenshot 2024-08-06 220146.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\21fcf6fc-bbbe-4ae8-870d-44564b5e3ca2_Screenshot 2024-08-06 220146.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\34dab9dc-facf-44f9-ad6b-7c9c5299db21_Screenshot 2024-08-06 220146.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ChatBE</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ChatBE</BasePath>
+      <RelativePath>uploads/34dab9dc-facf-44f9-ad6b-7c9c5299db21_Screenshot 2024-08-06 220146.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\34dab9dc-facf-44f9-ad6b-7c9c5299db21_Screenshot 2024-08-06 220146.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\388f02ee-62ec-4903-a54a-52b5ffd88627_Screenshot 2024-08-06 220146.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ChatBE</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ChatBE</BasePath>
+      <RelativePath>uploads/388f02ee-62ec-4903-a54a-52b5ffd88627_Screenshot 2024-08-06 220146.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\388f02ee-62ec-4903-a54a-52b5ffd88627_Screenshot 2024-08-06 220146.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\3cfef8cb-322e-49e3-8bc4-dbebbf398592_Screenshot 2024-07-17 103846.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ChatBE</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ChatBE</BasePath>
+      <RelativePath>uploads/3cfef8cb-322e-49e3-8bc4-dbebbf398592_Screenshot 2024-07-17 103846.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\3cfef8cb-322e-49e3-8bc4-dbebbf398592_Screenshot 2024-07-17 103846.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\40720e28-bb08-40a4-8f4c-b0e5ccdd1bec_Screenshot 2024-08-06 220146.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ChatBE</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ChatBE</BasePath>
+      <RelativePath>uploads/40720e28-bb08-40a4-8f4c-b0e5ccdd1bec_Screenshot 2024-08-06 220146.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\40720e28-bb08-40a4-8f4c-b0e5ccdd1bec_Screenshot 2024-08-06 220146.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\5082e100-1e74-4c0f-957b-4e7d064f8389_Screenshot 2024-08-06 220146.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ChatBE</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ChatBE</BasePath>
+      <RelativePath>uploads/5082e100-1e74-4c0f-957b-4e7d064f8389_Screenshot 2024-08-06 220146.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\5082e100-1e74-4c0f-957b-4e7d064f8389_Screenshot 2024-08-06 220146.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\5c063a69-de56-441a-a315-4759af37f1fb_Screenshot 2024-08-06 220146.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ChatBE</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ChatBE</BasePath>
+      <RelativePath>uploads/5c063a69-de56-441a-a315-4759af37f1fb_Screenshot 2024-08-06 220146.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\5c063a69-de56-441a-a315-4759af37f1fb_Screenshot 2024-08-06 220146.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\5f222587-1161-4c5d-b259-f878ceff1c8e_Screenshot 2024-08-06 220146.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ChatBE</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ChatBE</BasePath>
+      <RelativePath>uploads/5f222587-1161-4c5d-b259-f878ceff1c8e_Screenshot 2024-08-06 220146.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\5f222587-1161-4c5d-b259-f878ceff1c8e_Screenshot 2024-08-06 220146.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\5f2ae19a-ac8e-4564-97e8-2a21a5e82ff9_Screenshot 2024-08-06 220146.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ChatBE</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ChatBE</BasePath>
+      <RelativePath>uploads/5f2ae19a-ac8e-4564-97e8-2a21a5e82ff9_Screenshot 2024-08-06 220146.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\5f2ae19a-ac8e-4564-97e8-2a21a5e82ff9_Screenshot 2024-08-06 220146.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\6205a576-5e97-4266-9134-47b672ee3ecc_Screenshot 2024-08-06 220146.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ChatBE</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ChatBE</BasePath>
+      <RelativePath>uploads/6205a576-5e97-4266-9134-47b672ee3ecc_Screenshot 2024-08-06 220146.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\6205a576-5e97-4266-9134-47b672ee3ecc_Screenshot 2024-08-06 220146.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\64247169-e656-436f-920a-d2e8a98a2d52_Screenshot 2024-08-06 220146.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ChatBE</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ChatBE</BasePath>
+      <RelativePath>uploads/64247169-e656-436f-920a-d2e8a98a2d52_Screenshot 2024-08-06 220146.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\64247169-e656-436f-920a-d2e8a98a2d52_Screenshot 2024-08-06 220146.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\67b79217-116a-4442-974c-bf2d16e5bee5_0f25804f-aa29-4436-94d9-a5da8d5436b1.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ChatBE</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ChatBE</BasePath>
+      <RelativePath>uploads/67b79217-116a-4442-974c-bf2d16e5bee5_0f25804f-aa29-4436-94d9-a5da8d5436b1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\67b79217-116a-4442-974c-bf2d16e5bee5_0f25804f-aa29-4436-94d9-a5da8d5436b1.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\6e4b926a-c879-435b-881e-0ad90ce500f1_Screenshot 2024-08-06 220146.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ChatBE</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ChatBE</BasePath>
+      <RelativePath>uploads/6e4b926a-c879-435b-881e-0ad90ce500f1_Screenshot 2024-08-06 220146.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\6e4b926a-c879-435b-881e-0ad90ce500f1_Screenshot 2024-08-06 220146.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\72af703f-bbe9-4cda-a1c2-a6048a294001_Screenshot 2024-08-06 220146.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ChatBE</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ChatBE</BasePath>
+      <RelativePath>uploads/72af703f-bbe9-4cda-a1c2-a6048a294001_Screenshot 2024-08-06 220146.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\72af703f-bbe9-4cda-a1c2-a6048a294001_Screenshot 2024-08-06 220146.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\91f6e7d3-bf50-4700-a027-c2d69e07c7d5_Screenshot 2024-08-06 220146.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ChatBE</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ChatBE</BasePath>
+      <RelativePath>uploads/91f6e7d3-bf50-4700-a027-c2d69e07c7d5_Screenshot 2024-08-06 220146.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\91f6e7d3-bf50-4700-a027-c2d69e07c7d5_Screenshot 2024-08-06 220146.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\920b7d72-eb66-4c89-a9f0-df3d1cdc3ef6_Mau6.pdf))">
+      <SourceType>Package</SourceType>
+      <SourceId>ChatBE</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ChatBE</BasePath>
+      <RelativePath>uploads/920b7d72-eb66-4c89-a9f0-df3d1cdc3ef6_Mau6.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\920b7d72-eb66-4c89-a9f0-df3d1cdc3ef6_Mau6.pdf))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\923e42e1-c33b-4709-8170-f4236ae23cf3_Screenshot 2024-08-06 220146.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ChatBE</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ChatBE</BasePath>
+      <RelativePath>uploads/923e42e1-c33b-4709-8170-f4236ae23cf3_Screenshot 2024-08-06 220146.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\923e42e1-c33b-4709-8170-f4236ae23cf3_Screenshot 2024-08-06 220146.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\92b97bf9-0978-4501-979a-eafa50397a80_Screenshot 2024-08-06 220146.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ChatBE</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ChatBE</BasePath>
+      <RelativePath>uploads/92b97bf9-0978-4501-979a-eafa50397a80_Screenshot 2024-08-06 220146.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\92b97bf9-0978-4501-979a-eafa50397a80_Screenshot 2024-08-06 220146.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\99c59570-690b-4580-a493-729b8c8686b0_Screenshot 2024-07-17 103846.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ChatBE</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ChatBE</BasePath>
+      <RelativePath>uploads/99c59570-690b-4580-a493-729b8c8686b0_Screenshot 2024-07-17 103846.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\99c59570-690b-4580-a493-729b8c8686b0_Screenshot 2024-07-17 103846.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\9f1006fb-374c-4be0-b806-db31520c3a05_Screenshot 2024-08-06 220146.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ChatBE</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ChatBE</BasePath>
+      <RelativePath>uploads/9f1006fb-374c-4be0-b806-db31520c3a05_Screenshot 2024-08-06 220146.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\9f1006fb-374c-4be0-b806-db31520c3a05_Screenshot 2024-08-06 220146.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\ab69ecb7-9541-4562-8507-11995089cc9c_Screenshot 2024-08-06 220146.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ChatBE</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ChatBE</BasePath>
+      <RelativePath>uploads/ab69ecb7-9541-4562-8507-11995089cc9c_Screenshot 2024-08-06 220146.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\ab69ecb7-9541-4562-8507-11995089cc9c_Screenshot 2024-08-06 220146.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\avt01.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ChatBE</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ChatBE</BasePath>
+      <RelativePath>uploads/avt01.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\avt01.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\cb1f9809-5816-4f7f-b278-a9e3a2562fce_Screenshot 2024-08-06 220146.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ChatBE</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ChatBE</BasePath>
+      <RelativePath>uploads/cb1f9809-5816-4f7f-b278-a9e3a2562fce_Screenshot 2024-08-06 220146.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\cb1f9809-5816-4f7f-b278-a9e3a2562fce_Screenshot 2024-08-06 220146.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\d118609d-d7d4-4b42-aeba-fbfe45a7dd11_ThoiKhoaBieu.pdf))">
+      <SourceType>Package</SourceType>
+      <SourceId>ChatBE</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ChatBE</BasePath>
+      <RelativePath>uploads/d118609d-d7d4-4b42-aeba-fbfe45a7dd11_ThoiKhoaBieu.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\d118609d-d7d4-4b42-aeba-fbfe45a7dd11_ThoiKhoaBieu.pdf))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\f19a154a-0981-42c5-8481-866438b97d4c_Screenshot 2024-08-06 220146.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ChatBE</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ChatBE</BasePath>
+      <RelativePath>uploads/f19a154a-0981-42c5-8481-866438b97d4c_Screenshot 2024-08-06 220146.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\f19a154a-0981-42c5-8481-866438b97d4c_Screenshot 2024-08-06 220146.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\f4eb347e-6f25-4ee3-a8d6-d5ca4ea8b8bc_Screenshot 2024-08-06 220146.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ChatBE</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ChatBE</BasePath>
+      <RelativePath>uploads/f4eb347e-6f25-4ee3-a8d6-d5ca4ea8b8bc_Screenshot 2024-08-06 220146.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\f4eb347e-6f25-4ee3-a8d6-d5ca4ea8b8bc_Screenshot 2024-08-06 220146.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\f7a380c9-acbe-4855-84af-186415143e14_Screenshot 2024-08-06 220146.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ChatBE</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ChatBE</BasePath>
+      <RelativePath>uploads/f7a380c9-acbe-4855-84af-186415143e14_Screenshot 2024-08-06 220146.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\f7a380c9-acbe-4855-84af-186415143e14_Screenshot 2024-08-06 220146.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\faed60d1-52ae-4f21-a7ac-b3954ed54424_Screenshot 2024-07-17 103846.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ChatBE</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ChatBE</BasePath>
+      <RelativePath>uploads/faed60d1-52ae-4f21-a7ac-b3954ed54424_Screenshot 2024-07-17 103846.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\faed60d1-52ae-4f21-a7ac-b3954ed54424_Screenshot 2024-07-17 103846.png))</OriginalItemSpec>
+    </StaticWebAsset>
+  </ItemGroup>
+</Project>
