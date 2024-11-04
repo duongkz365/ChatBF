@@ -12,6 +12,7 @@ using ChatBE.Core.Interfaces;
 using ChatBE.Core.Entities;
 using ChatBE.Infrastructure.Repositories;
 using ChatBE.Application.Services;
+using ChatBE.Core.Interfaces.IService;
 
 
 
@@ -48,7 +49,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("react",
         builder => builder
-            .WithOrigins("http://localhost:3000") // FRONTEND DOMAIN
+            .WithOrigins("http://localhost:3000", "http://192.168.1.35:3000") // FRONTEND DOMAIN
             .AllowAnyHeader()
             .AllowAnyMethod()
             .AllowCredentials());  // Cho phép gửi yêu cầu từ địa chỉ cụ thể này
@@ -71,6 +72,9 @@ builder.Services.AddScoped<IMessageService, MessageService>();
 
 builder.Services.AddScoped<IContactService, ContactService>();
 builder.Services.AddScoped<IContactRepository, ContactRepository>();
+
+// REGISTER MAIL SERVICES
+builder.Services.AddScoped<IMailService, MailService>();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();

@@ -14,7 +14,6 @@ using Microsoft.IdentityModel.Tokens;
 public class UserService : IUserService
 {
     private readonly IUserRepository _userRepository;
-    
 
     public UserService(IUserRepository userRepository)
     {
@@ -57,16 +56,14 @@ public class UserService : IUserService
 
     public async Task<User> GetUserByIdAsync(Guid userId)
     {
-
         return await _userRepository.GetByIdAsync(userId);
     }
 
     public async Task<string> Login([FromBody] LoginDTO login)
     {
-        var user = await _userRepository.GetByCredentialsAsync(login.UserName, login.Password);
-        if (user == null)
-            return "";
-        return GenerateJwtToken(user);
+        var user = await _userRepository.GetByCredentialsAsync(login.UserName, login.Password)
+                   ?? await _userRepository.GetByCredentialEmailAsync(login.UserName, login.Password);
+        return user == null ? "" : GenerateJwtToken(user);
     }
 
     public async Task<User> GetProfile(string token)
@@ -126,11 +123,6 @@ public class UserService : IUserService
                     Permission = "user"
                 };
                 await _userRepository.AddAsync(newUser);
-
-
-
-                //// Lưu contact vào cơ sở dữ liệu
-                //await _contactService.Value.AddEmptyContactAsync(contact);
                 return "USER REGISTERED SUCCESSFULLY!";
             }
             catch (Exception ex)
@@ -154,5 +146,37 @@ public class UserService : IUserService
     public async Task<User> GetUserByNameAsync(string name)
     {
         return await _userRepository.GetByUserNameAsync(name);
+    }
+
+    public async Task<string> Update(User user)
+    {
+        var userUpdate = await _userRepository.GetByIdAsync(user.UserId);
+        if (userUpdate == null)
+        {
+            return "FAIL";
+        }
+
+        if (!string.IsNullOrEmpty(user.PasswordHash))
+        {
+            userUpdate.PasswordHash = user.PasswordHash;
+        }
+
+        if (!string.IsNullOrEmpty(user.FullName))
+        {
+            userUpdate.FullName = user.FullName;
+        }
+        if (!string.IsNullOrEmpty(user.UserName))
+        {
+            userUpdate.UserName = user.UserName;
+        }
+
+        try
+        {
+            await _userRepository.UpdateAsync(userUpdate);
+            return "SUCCESS";
+        }catch(Exception e)
+        {
+            return "FAIL";
+        }
     }
 }

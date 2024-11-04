@@ -32,6 +32,11 @@ public class UserRepository : IUserRepository
         return await _context.Users.Find(user => user.UserName == userName).FirstOrDefaultAsync();
     }
 
+    public async Task<User> GetByEmailAsync (string email)
+    {
+        return await _context.Users.Find(user => user.Email == email).FirstOrDefaultAsync();
+    }
+
 
     public async Task AddAsync(User user)
     {
@@ -55,8 +60,18 @@ public class UserRepository : IUserRepository
             .FirstOrDefaultAsync();
     }
 
+    public async  Task<User> GetByCredentialEmailAsync(string email, string passwordHash)
+    {
+        return await _context.Users
+            .Find(user => user.Email == email && user.PasswordHash == passwordHash)
+            .FirstOrDefaultAsync();
+    }
+
+
     public async Task<List<User>> GetUsers(List<Guid> userIds)
     {
         return await _context.Users.Find(u => userIds.Contains(u.UserId)).ToListAsync();
     }
+
+
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KyDing\\Desktop\\Net\\ChatBE\\ChatBE\\ChatBE.csproj": {}
+    "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\ChatBE.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KyDing\\Desktop\\Net\\ChatBE\\ChatBE\\ChatBE.csproj": {
+    "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\ChatBE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBE\\ChatBE\\ChatBE.csproj",
+        "projectUniqueName": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\ChatBE.csproj",
         "projectName": "ChatBE",
-        "projectPath": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBE\\ChatBE\\ChatBE.csproj",
+        "projectPath": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\ChatBE.csproj",
         "packagesPath": "C:\\Users\\KyDing\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBE\\ChatBE\\obj\\",
+        "outputPath": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KyDing\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +46,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[8.0.10, )"

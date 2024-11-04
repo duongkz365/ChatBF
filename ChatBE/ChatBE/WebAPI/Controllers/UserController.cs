@@ -1,8 +1,10 @@
 ﻿// UserController.cs
 using ChatBE.Application.DTOs;
 using ChatBE.Core.Entities;
+using ChatBE.Core.Interfaces.IService;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using System.Net.WebSockets;
 using System.Threading.Tasks;
 
 [ApiController]
@@ -10,10 +12,12 @@ using System.Threading.Tasks;
 public class UserController : ControllerBase
 {
     private readonly IUserService _userService;
+    private readonly IMailService _mailService;
 
-    public UserController(IUserService userService)
+    public UserController(IUserService userService, IMailService mailService)
     {
         _userService = userService;
+        _mailService = mailService;
     }
 
     [HttpGet]
@@ -48,5 +52,19 @@ public class UserController : ControllerBase
         var message = await _userService.Register(register);
 
         return Ok(new {message});
+    }
+
+    [HttpPost("forget")]
+    public async Task<IActionResult> Forget([FromBody] ForgetDTO forget)
+    {
+        var message = await _mailService.SendEmaiForgetPasswordlAsync(forget);
+        return Ok(new { message});
+    }
+
+    [HttpPut("update")]
+    public async Task<IActionResult> Update([FromBody] User user)
+    {
+        var message = await _userService.Update(user);
+        return Ok(new { message });
     }
 }

@@ -138,6 +138,22 @@
   },
   {
     "ContainingType": "UserController",
+    "Method": "Forget",
+    "RelativePath": "api/User/forget",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "forget",
+        "Type": "ChatBE.Application.DTOs.ForgetDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserController",
     "Method": "Login",
     "RelativePath": "api/User/login",
     "HttpMethod": "POST",
@@ -189,6 +205,22 @@
       {
         "Name": "register",
         "Type": "ChatBE.Application.DTOs.RegisterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserController",
+    "Method": "Update",
+    "RelativePath": "api/User/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "ChatBE.Core.Entities.User",
         "IsRequired": true
       }
     ],

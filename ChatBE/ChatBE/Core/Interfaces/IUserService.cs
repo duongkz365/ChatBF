@@ -14,7 +14,7 @@ public interface IUserService
     Task<string> Register([FromBody] RegisterDTO register);
     Task<IEnumerable<User>> GetAllUsersAsync();
     Task<User> GetProfile(string token);
-
     Task<List<User>> GetUsers(List<Guid> userIds);
+    Task<string> Update(User user);
 
 }
