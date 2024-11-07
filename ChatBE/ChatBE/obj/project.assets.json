@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "agora_rtc_sdk/4.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp20/agorartc.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp20/agorartc.dll": {}
+        },
+        "build": {
+          "build/netcoreapp20/agora_rtc_sdk.props": {},
+          "build/netcoreapp20/agora_rtc_sdk.targets": {}
+        }
+      },
       "BouncyCastle.Cryptography/2.4.0": {
         "type": "package",
         "compile": {
@@ -936,6 +949,85 @@
     }
   },
   "libraries": {
+    "agora_rtc_sdk/4.2.1": {
+      "sha512": "b/xj08m44exYd8bMrsqE4Zi5SfIhf1EBndFPcchVmJctRvOY/QzaCrT1S0OdZybmhD32618wVGauEp571/cXXw==",
+      "type": "package",
+      "path": "agora_rtc_sdk/4.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "agora_rtc_sdk.4.2.1.nupkg.sha512",
+        "agora_rtc_sdk.nuspec",
+        "build/net40/agora_rtc_sdk.props",
+        "build/net40/agora_rtc_sdk.targets",
+        "build/netcoreapp20/agora_rtc_sdk.props",
+        "build/netcoreapp20/agora_rtc_sdk.targets",
+        "build/x64/AgoraRtcWrapper.dll",
+        "build/x64/AgoraRtcWrapper.lib",
+        "build/x64/agora_rtc_sdk.dll",
+        "build/x64/glfw3.dll",
+        "build/x64/libagora-core.dll",
+        "build/x64/libagora-fdkaac.dll",
+        "build/x64/libagora-ffmpeg.dll",
+        "build/x64/libagora-soundtouch.dll",
+        "build/x64/libagora-wgc.dll",
+        "build/x64/libagora_ai_echo_cancellation_extension.dll",
+        "build/x64/libagora_ai_noise_suppression_extension.dll",
+        "build/x64/libagora_audio_beauty_extension.dll",
+        "build/x64/libagora_clear_vision_extension.dll",
+        "build/x64/libagora_content_inspect_extension.dll",
+        "build/x64/libagora_drm_loader_extension.dll",
+        "build/x64/libagora_face_detection_extension.dll",
+        "build/x64/libagora_screen_capture_extension.dll",
+        "build/x64/libagora_segmentation_extension.dll",
+        "build/x64/libagora_spatial_audio_extension.dll",
+        "build/x64/libagora_udrm3_extension.dll",
+        "build/x64/libagora_video_decoder_extension.dll",
+        "build/x64/libagora_video_encoder_extension.dll",
+        "build/x64/libagora_video_quality_analyzer_extension.dll",
+        "build/x64/net40/LitJSON.dll",
+        "build/x64/net40/agorartc.dll",
+        "build/x64/net40/agorartc.pdb",
+        "build/x64/netcoreapp20/agorartc.deps.json",
+        "build/x64/netcoreapp20/agorartc.dll",
+        "build/x64/netcoreapp20/agorartc.pdb",
+        "build/x64/video_dec.dll",
+        "build/x64/video_enc.dll",
+        "build/x86/AgoraRtcWrapper.dll",
+        "build/x86/AgoraRtcWrapper.lib",
+        "build/x86/agora_rtc_sdk.dll",
+        "build/x86/glfw3.dll",
+        "build/x86/libagora-core.dll",
+        "build/x86/libagora-fdkaac.dll",
+        "build/x86/libagora-ffmpeg.dll",
+        "build/x86/libagora-soundtouch.dll",
+        "build/x86/libagora-wgc.dll",
+        "build/x86/libagora_ai_echo_cancellation_extension.dll",
+        "build/x86/libagora_ai_noise_suppression_extension.dll",
+        "build/x86/libagora_audio_beauty_extension.dll",
+        "build/x86/libagora_clear_vision_extension.dll",
+        "build/x86/libagora_content_inspect_extension.dll",
+        "build/x86/libagora_drm_loader_extension.dll",
+        "build/x86/libagora_face_detection_extension.dll",
+        "build/x86/libagora_screen_capture_extension.dll",
+        "build/x86/libagora_segmentation_extension.dll",
+        "build/x86/libagora_spatial_audio_extension.dll",
+        "build/x86/libagora_udrm3_extension.dll",
+        "build/x86/libagora_video_decoder_extension.dll",
+        "build/x86/libagora_video_encoder_extension.dll",
+        "build/x86/libagora_video_quality_analyzer_extension.dll",
+        "build/x86/net40/LitJSON.dll",
+        "build/x86/net40/agorartc.dll",
+        "build/x86/net40/agorartc.pdb",
+        "build/x86/netcoreapp20/agorartc.deps.json",
+        "build/x86/netcoreapp20/agorartc.dll",
+        "build/x86/netcoreapp20/agorartc.pdb",
+        "build/x86/video_dec.dll",
+        "build/x86/video_enc.dll",
+        "lib/net40/agorartc.dll",
+        "lib/netcoreapp20/agorartc.dll"
+      ]
+    },
     "BouncyCastle.Cryptography/2.4.0": {
       "sha512": "SwXsAV3sMvAU/Nn31pbjhWurYSjJ+/giI/0n6tCrYoupEK34iIHCuk3STAd9fx8yudM85KkLSVdn951vTng/vQ==",
       "type": "package",
@@ -2594,7 +2686,8 @@
       "Microsoft.AspNetCore.SignalR.Client >= 8.0.10",
       "MongoDB.Driver >= 3.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0",
-      "System.IdentityModel.Tokens.Jwt >= 8.1.2"
+      "System.IdentityModel.Tokens.Jwt >= 8.1.2",
+      "agora_rtc_sdk >= 4.2.1"
     ]
   },
   "packageFolders": {
@@ -2669,6 +2762,10 @@
           "System.IdentityModel.Tokens.Jwt": {
             "target": "Package",
             "version": "[8.1.2, )"
+          },
+          "agora_rtc_sdk": {
+            "target": "Package",
+            "version": "[4.2.1, )"
           }
         },
         "imports": [

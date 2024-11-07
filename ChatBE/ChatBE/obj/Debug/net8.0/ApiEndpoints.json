@@ -1,5 +1,53 @@
 [
   {
+    "ContainingType": "AgoraController",
+    "Method": "VideoCall",
+    "RelativePath": "api/Agora",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "call",
+        "Type": "ChatBE.Application.DTOs.VideoCallDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AgoraController",
+    "Method": "AcceptCall",
+    "RelativePath": "api/Agora/accept",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "call",
+        "Type": "ChatBE.Application.DTOs.VideoCallDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AgoraController",
+    "Method": "CancelCall",
+    "RelativePath": "api/Agora/cancel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "call",
+        "Type": "ChatBE.Application.DTOs.VideoCallDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ChatBE.WebAPI.Controllers.ContactController",
     "Method": "GetContact",
     "RelativePath": "api/Contact",

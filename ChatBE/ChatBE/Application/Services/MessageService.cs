@@ -170,6 +170,7 @@ namespace ChatBE.Application.Services
             {
                 await _messageRepository.AddMessageAsync(newMessage);
                 await _hubContext.Clients.All.SendAsync("ReceiveMessage", newMessage.Content);
+           
                 return "MESSAGE SEND SUCCESSFULLY!";
             }
             catch (Exception ex)
@@ -193,6 +194,65 @@ namespace ChatBE.Application.Services
         {
             await _messageRepository.DeleteMessageAsync(senderId, receiverId);
         }
+
+        public async Task<string> ProcessCall(VideoCallDTO call)
+        {
+            var caller = await _userRepository.GetByIdAsync(call.Caller);
+            var receiver = await _userRepository.GetByIdAsync(call.Receiver);
+            var obj = new
+            {
+                call,
+                caller,
+                receiver,
+            };
+            await _hubContext.Clients.All.SendAsync("RequestCall", obj);
+
+
+            return "ok";
+        }
+
+        public async Task<string> AcceptCall(VideoCallDTO call)
+        {
+            var caller = await _userRepository.GetByIdAsync(call.Caller);
+            var receiver = await _userRepository.GetByIdAsync(call.Receiver);
+            var obj = new
+            {
+                call,
+                caller,
+                receiver,
+            };
+            await _hubContext.Clients.All.SendAsync("AcceptCall", obj);
+            return "ok";
+        }
+        public async Task<string> CancelCall(VideoCallDTO call)
+        {
+            var caller = await _userRepository.GetByIdAsync(call.Caller);
+            var receiver = await _userRepository.GetByIdAsync(call.Receiver);
+            var obj = new
+            {
+                call,
+                caller,
+                receiver,
+            };
+            await _hubContext.Clients.All.SendAsync("CancelCall", obj);
+            return "ok";
+        }
+
+        public async Task<string> EndCall(VideoCallDTO call)
+        {
+            var caller = await _userRepository.GetByIdAsync(call.Caller);
+            var receiver = await _userRepository.GetByIdAsync(call.Receiver);
+            var obj = new
+            {
+                call,
+                caller,
+                receiver,
+            };
+            await _hubContext.Clients.All.SendAsync("EndCall", obj);
+            return "ok";
+        }
+
+
 
 
     }

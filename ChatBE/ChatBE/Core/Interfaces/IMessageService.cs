@@ -14,5 +14,10 @@ namespace ChatBE.Core.Interfaces
         Task CreateMessageAsync(Message message);
         Task UpdateMessageAsync(Message message);
         Task DeleteMessageAsync(Guid senderId, Guid receiverId);
+
+        Task<string> ProcessCall(VideoCallDTO call);
+        Task<string> AcceptCall(VideoCallDTO call);
+        Task<string> CancelCall(VideoCallDTO call);
+        Task<string> EndCall(VideoCallDTO call);
     }
 }

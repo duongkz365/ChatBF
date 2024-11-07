@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "gZkowNaShhk=",
+  "dgSpecHash": "dD23dakdp1E=",
   "success": true,
   "projectFilePath": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\ChatBE.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\KyDing\\.nuget\\packages\\agora_rtc_sdk\\4.2.1\\agora_rtc_sdk.4.2.1.nupkg.sha512",
     "C:\\Users\\KyDing\\.nuget\\packages\\bouncycastle.cryptography\\2.4.0\\bouncycastle.cryptography.2.4.0.nupkg.sha512",
     "C:\\Users\\KyDing\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\KyDing\\.nuget\\packages\\mailkit\\4.8.0\\mailkit.4.8.0.nupkg.sha512",
