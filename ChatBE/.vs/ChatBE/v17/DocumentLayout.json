@@ -1,0 +1,724 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\application\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\application\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\core\\interfaces\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\core\\interfaces\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\webapi\\controllers\\agoracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\webapi\\controllers\\agoracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\webapi\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\webapi\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\infrastructure\\repositories\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\infrastructure\\repositories\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\webapi\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\webapi\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\application\\services\\mailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\application\\services\\mailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\application\\dtos\\messagefiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\application\\dtos\\messagefiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\application\\dtos\\conversationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\application\\dtos\\conversationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\application\\dtos\\videocalldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\application\\dtos\\videocalldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\core\\interfaces\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\core\\interfaces\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\core\\interfaces\\icontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\core\\interfaces\\icontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\core\\interfaces\\imessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\core\\interfaces\\imessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\application\\services\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\application\\services\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\infrastructure\\externalservices\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\infrastructure\\externalservices\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\core\\interfaces\\igroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\core\\interfaces\\igroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\core\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\core\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\application\\dtos\\messagetextdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\application\\dtos\\messagetextdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\application\\dtos\\contactinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\application\\dtos\\contactinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\infrastructure\\externalservices\\callhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\infrastructure\\externalservices\\callhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\application\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\application\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\application\\dtos\\groupmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\application\\dtos\\groupmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\application\\dtos\\profilerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\application\\dtos\\profilerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\chatbe.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\chatbe.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\core\\interfaces\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\core\\interfaces\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\core\\entities\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\core\\entities\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\core\\interfaces\\imessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\core\\interfaces\\imessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\core\\interfaces\\iservice\\imailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\core\\interfaces\\iservice\\imailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\application\\dtos\\forgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\application\\dtos\\forgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\core\\interfaces\\icontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\core\\interfaces\\icontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\application\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\application\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\infrastructure\\repositories\\grouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\infrastructure\\repositories\\grouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\infrastructure\\repositories\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\infrastructure\\repositories\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\core\\entities\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\core\\entities\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\infrastructure\\data\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\infrastructure\\data\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|c:\\users\\kyding\\desktop\\net\\chatbf\\chatbe\\chatbe\\core\\entities\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE030C2E-D2FC-473B-8021-C989F801E2B7}|ChatBE\\ChatBE.csproj|solutionrelative:chatbe\\core\\entities\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 244,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "ChatBE\\Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "ChatBE\\Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAcwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T07:23:01.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MessageController.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\WebAPI\\Controllers\\MessageController.cs",
+              "RelativeDocumentMoniker": "ChatBE\\WebAPI\\Controllers\\MessageController.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\WebAPI\\Controllers\\MessageController.cs",
+              "RelativeToolTip": "ChatBE\\WebAPI\\Controllers\\MessageController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwCUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T00:55:07.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IMessageService.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Core\\Interfaces\\IMessageService.cs",
+              "RelativeDocumentMoniker": "ChatBE\\Core\\Interfaces\\IMessageService.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Core\\Interfaces\\IMessageService.cs",
+              "RelativeToolTip": "ChatBE\\Core\\Interfaces\\IMessageService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wBYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T00:50:53.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MessageService.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Application\\Services\\MessageService.cs",
+              "RelativeDocumentMoniker": "ChatBE\\Application\\Services\\MessageService.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Application\\Services\\MessageService.cs",
+              "RelativeToolTip": "ChatBE\\Application\\Services\\MessageService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T00:51:30.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\WebAPI\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "ChatBE\\WebAPI\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\WebAPI\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "ChatBE\\WebAPI\\Controllers\\ContactController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T02:57:46.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AgoraController.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\WebAPI\\Controllers\\AgoraController.cs",
+              "RelativeDocumentMoniker": "ChatBE\\WebAPI\\Controllers\\AgoraController.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\WebAPI\\Controllers\\AgoraController.cs",
+              "RelativeToolTip": "ChatBE\\WebAPI\\Controllers\\AgoraController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAMwBIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T08:48:51.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MessageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Infrastructure\\Repositories\\MessageRepository.cs",
+              "RelativeDocumentMoniker": "ChatBE\\Infrastructure\\Repositories\\MessageRepository.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Infrastructure\\Repositories\\MessageRepository.cs",
+              "RelativeToolTip": "ChatBE\\Infrastructure\\Repositories\\MessageRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T08:09:03.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\WebAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ChatBE\\WebAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\WebAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ChatBE\\WebAPI\\Controllers\\UserController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAcwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T11:08:51.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MailService.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Application\\Services\\MailService.cs",
+              "RelativeDocumentMoniker": "ChatBE\\Application\\Services\\MailService.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Application\\Services\\MailService.cs",
+              "RelativeToolTip": "ChatBE\\Application\\Services\\MailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T01:07:29.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "ChatBE\\Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Application\\Services\\UserService.cs",
+              "RelativeToolTip": "ChatBE\\Application\\Services\\UserService.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAASwK0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T13:56:19.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MessageFileDTO.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Application\\DTOs\\MessageFileDTO.cs",
+              "RelativeDocumentMoniker": "ChatBE\\Application\\DTOs\\MessageFileDTO.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Application\\DTOs\\MessageFileDTO.cs",
+              "RelativeToolTip": "ChatBE\\Application\\DTOs\\MessageFileDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T07:10:34.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ConversationDTO.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Application\\DTOs\\ConversationDTO.cs",
+              "RelativeDocumentMoniker": "ChatBE\\Application\\DTOs\\ConversationDTO.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Application\\DTOs\\ConversationDTO.cs",
+              "RelativeToolTip": "ChatBE\\Application\\DTOs\\ConversationDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T11:28:48.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "VideoCallDTO.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Application\\DTOs\\VideoCallDTO.cs",
+              "RelativeDocumentMoniker": "ChatBE\\Application\\DTOs\\VideoCallDTO.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Application\\DTOs\\VideoCallDTO.cs",
+              "RelativeToolTip": "ChatBE\\Application\\DTOs\\VideoCallDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T13:37:13.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IContactRepository.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Core\\Interfaces\\IContactRepository.cs",
+              "RelativeDocumentMoniker": "ChatBE\\Core\\Interfaces\\IContactRepository.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Core\\Interfaces\\IContactRepository.cs",
+              "RelativeToolTip": "ChatBE\\Core\\Interfaces\\IContactRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAIwAwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T01:46:31.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IContactService.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Core\\Interfaces\\IContactService.cs",
+              "RelativeDocumentMoniker": "ChatBE\\Core\\Interfaces\\IContactService.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Core\\Interfaces\\IContactService.cs",
+              "RelativeToolTip": "ChatBE\\Core\\Interfaces\\IContactService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T01:54:00.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IMessage.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Core\\Interfaces\\IMessage.cs",
+              "RelativeDocumentMoniker": "ChatBE\\Core\\Interfaces\\IMessage.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Core\\Interfaces\\IMessage.cs",
+              "RelativeToolTip": "ChatBE\\Core\\Interfaces\\IMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T07:50:51.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ContactService.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Application\\Services\\ContactService.cs",
+              "RelativeDocumentMoniker": "ChatBE\\Application\\Services\\ContactService.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Application\\Services\\ContactService.cs",
+              "RelativeToolTip": "ChatBE\\Application\\Services\\ContactService.cs",
+              "ViewState": "AgIAAEYBAAAAAAAAAAAAAFQBAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T01:54:39.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IGroup.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Core\\Interfaces\\IGroup.cs",
+              "RelativeDocumentMoniker": "ChatBE\\Core\\Interfaces\\IGroup.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Core\\Interfaces\\IGroup.cs",
+              "RelativeToolTip": "ChatBE\\Core\\Interfaces\\IGroup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T07:50:37.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Core\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "ChatBE\\Core\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Core\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "ChatBE\\Core\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T13:55:56.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "NotificationHub.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Infrastructure\\ExternalServices\\NotificationHub.cs",
+              "RelativeDocumentMoniker": "ChatBE\\Infrastructure\\ExternalServices\\NotificationHub.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Infrastructure\\ExternalServices\\NotificationHub.cs",
+              "RelativeToolTip": "ChatBE\\Infrastructure\\ExternalServices\\NotificationHub.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAcwFAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T08:13:09.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MessageTextDTO.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Application\\DTOs\\MessageTextDTO.cs",
+              "RelativeDocumentMoniker": "ChatBE\\Application\\DTOs\\MessageTextDTO.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Application\\DTOs\\MessageTextDTO.cs",
+              "RelativeToolTip": "ChatBE\\Application\\DTOs\\MessageTextDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T01:12:00.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ContactInfo.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Application\\DTOs\\ContactInfo.cs",
+              "RelativeDocumentMoniker": "ChatBE\\Application\\DTOs\\ContactInfo.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Application\\DTOs\\ContactInfo.cs",
+              "RelativeToolTip": "ChatBE\\Application\\DTOs\\ContactInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T03:32:52.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Program.cs",
+              "RelativeDocumentMoniker": "ChatBE\\Program.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Program.cs",
+              "RelativeToolTip": "ChatBE\\Program.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAIBZwI0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T06:50:11.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ChatBE\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ChatBE\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAA0AAAAAAAAAAABhwBQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-04T07:59:14.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Application\\DTOs\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "ChatBE\\Application\\DTOs\\RegisterDTO.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Application\\DTOs\\RegisterDTO.cs",
+              "RelativeToolTip": "ChatBE\\Application\\DTOs\\RegisterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T15:08:51.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GroupMessageDTO.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Application\\DTOs\\GroupMessageDTO.cs",
+              "RelativeDocumentMoniker": "ChatBE\\Application\\DTOs\\GroupMessageDTO.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Application\\DTOs\\GroupMessageDTO.cs",
+              "RelativeToolTip": "ChatBE\\Application\\DTOs\\GroupMessageDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T11:34:14.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CallHub.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Infrastructure\\ExternalServices\\CallHub.cs",
+              "RelativeDocumentMoniker": "ChatBE\\Infrastructure\\ExternalServices\\CallHub.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Infrastructure\\ExternalServices\\CallHub.cs",
+              "RelativeToolTip": "ChatBE\\Infrastructure\\ExternalServices\\CallHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T11:10:01.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ProfileRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Application\\DTOs\\ProfileRequestDTO.cs",
+              "RelativeDocumentMoniker": "ChatBE\\Application\\DTOs\\ProfileRequestDTO.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Application\\DTOs\\ProfileRequestDTO.cs",
+              "RelativeToolTip": "ChatBE\\Application\\DTOs\\ProfileRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T03:55:35.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IUser.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Core\\Interfaces\\IUser.cs",
+              "RelativeDocumentMoniker": "ChatBE\\Core\\Interfaces\\IUser.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Core\\Interfaces\\IUser.cs",
+              "RelativeToolTip": "ChatBE\\Core\\Interfaces\\IUser.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAnwA8AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T07:20:49.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ChatBE",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\ChatBE.csproj",
+              "RelativeDocumentMoniker": "ChatBE\\ChatBE.csproj",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\ChatBE.csproj",
+              "RelativeToolTip": "ChatBE\\ChatBE.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-04T07:59:11.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\appsettings.json",
+              "RelativeDocumentMoniker": "ChatBE\\appsettings.json",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\appsettings.json",
+              "RelativeToolTip": "ChatBE\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-31T06:51:42.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Core\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "ChatBE\\Core\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Core\\Entities\\User.cs",
+              "RelativeToolTip": "ChatBE\\Core\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T07:02:23.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Core\\Entities\\Message.cs",
+              "RelativeDocumentMoniker": "ChatBE\\Core\\Entities\\Message.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Core\\Entities\\Message.cs",
+              "RelativeToolTip": "ChatBE\\Core\\Entities\\Message.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAawCAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T07:12:48.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IMessageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Core\\Interfaces\\IMessageRepository.cs",
+              "RelativeDocumentMoniker": "ChatBE\\Core\\Interfaces\\IMessageRepository.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Core\\Interfaces\\IMessageRepository.cs",
+              "RelativeToolTip": "ChatBE\\Core\\Interfaces\\IMessageRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T00:45:09.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IMailService.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Core\\Interfaces\\IService\\IMailService.cs",
+              "RelativeDocumentMoniker": "ChatBE\\Core\\Interfaces\\IService\\IMailService.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Core\\Interfaces\\IService\\IMailService.cs",
+              "RelativeToolTip": "ChatBE\\Core\\Interfaces\\IService\\IMailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T00:57:42.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ForgetDTO.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Application\\DTOs\\ForgetDTO.cs",
+              "RelativeDocumentMoniker": "ChatBE\\Application\\DTOs\\ForgetDTO.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Application\\DTOs\\ForgetDTO.cs",
+              "RelativeToolTip": "ChatBE\\Application\\DTOs\\ForgetDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T01:22:07.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IContact.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Core\\Interfaces\\IContact.cs",
+              "RelativeDocumentMoniker": "ChatBE\\Core\\Interfaces\\IContact.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Core\\Interfaces\\IContact.cs",
+              "RelativeToolTip": "ChatBE\\Core\\Interfaces\\IContact.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T07:50:25.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Application\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "ChatBE\\Application\\DTOs\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Application\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "ChatBE\\Application\\DTOs\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T14:27:58.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Application\\DTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "ChatBE\\Application\\DTOs\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Application\\DTOs\\LoginDTO.cs",
+              "RelativeToolTip": "ChatBE\\Application\\DTOs\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T15:08:11.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ContactRepository.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Infrastructure\\Repositories\\ContactRepository.cs",
+              "RelativeDocumentMoniker": "ChatBE\\Infrastructure\\Repositories\\ContactRepository.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Infrastructure\\Repositories\\ContactRepository.cs",
+              "RelativeToolTip": "ChatBE\\Infrastructure\\Repositories\\ContactRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwBwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T08:09:20.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "MongoDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Infrastructure\\Data\\MongoDbContext.cs",
+              "RelativeDocumentMoniker": "ChatBE\\Infrastructure\\Data\\MongoDbContext.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Infrastructure\\Data\\MongoDbContext.cs",
+              "RelativeToolTip": "ChatBE\\Infrastructure\\Data\\MongoDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T08:11:44.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "GroupRepository.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Infrastructure\\Repositories\\GroupRepository.cs",
+              "RelativeDocumentMoniker": "ChatBE\\Infrastructure\\Repositories\\GroupRepository.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Infrastructure\\Repositories\\GroupRepository.cs",
+              "RelativeToolTip": "ChatBE\\Infrastructure\\Repositories\\GroupRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T08:08:40.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Group.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Core\\Entities\\Group.cs",
+              "RelativeDocumentMoniker": "ChatBE\\Core\\Entities\\Group.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Core\\Entities\\Group.cs",
+              "RelativeToolTip": "ChatBE\\Core\\Entities\\Group.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T07:12:05.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Core\\Entities\\Contact.cs",
+              "RelativeDocumentMoniker": "ChatBE\\Core\\Entities\\Contact.cs",
+              "ToolTip": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\Core\\Entities\\Contact.cs",
+              "RelativeToolTip": "ChatBE\\Core\\Entities\\Contact.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T07:11:13.041Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
