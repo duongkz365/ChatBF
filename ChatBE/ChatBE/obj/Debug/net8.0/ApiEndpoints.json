@@ -48,6 +48,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "AgoraController",
+    "Method": "EndCall",
+    "RelativePath": "api/Agora/end",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "call",
+        "Type": "ChatBE.Application.DTOs.VideoCallDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ChatBE.WebAPI.Controllers.ContactController",
     "Method": "GetContact",
     "RelativePath": "api/Contact",
