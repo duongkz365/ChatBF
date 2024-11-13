@@ -1,6 +1,14 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\Administrator\\Desktop\\ChatBF\\ChatBE\\ChatBE\\wwwroot\\build\\asset-manifest.json",
+      "PackagePath": "staticwebassets\\build\\asset-manifest.json"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\ChatBF\\ChatBE\\ChatBE\\wwwroot\\build\\manifest.json",
+      "PackagePath": "staticwebassets\\build\\manifest.json"
+    },
+    {
       "Id": "C:\\Users\\Administrator\\Desktop\\ChatBF\\ChatBE\\ChatBE\\wwwroot\\uploads\\01d18bd3-3bc2-4e25-8521-2732fd1e431d_Screenshot 2024-08-06 220146.png",
       "PackagePath": "staticwebassets\\uploads\\01d18bd3-3bc2-4e25-8521-2732fd1e431d_Screenshot 2024-08-06 220146.png"
     },

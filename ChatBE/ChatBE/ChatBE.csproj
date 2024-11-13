@@ -1,10 +1,51 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <Configurations>Debug;Release;react</Configurations>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\build\favicon.ico" />
+    <Content Remove="wwwroot\build\index.html" />
+    <Content Remove="wwwroot\build\robots.txt" />
+    <Content Remove="wwwroot\build\static\css\main.1fa651b0.css" />
+    <Content Remove="wwwroot\build\static\js\115.10056599.chunk.js" />
+    <Content Remove="wwwroot\build\static\js\283.25f31579.chunk.js" />
+    <Content Remove="wwwroot\build\static\js\367.fb024649.chunk.js" />
+    <Content Remove="wwwroot\build\static\js\378.f9600b73.chunk.js" />
+    <Content Remove="wwwroot\build\static\js\748.3acf0abc.chunk.js" />
+    <Content Remove="wwwroot\build\static\js\769.e183df80.chunk.js" />
+    <Content Remove="wwwroot\build\static\js\818.ea3fbd2e.chunk.js" />
+    <Content Remove="wwwroot\build\static\js\main.197c1b79.js" />
+    <Content Remove="wwwroot\build\static\js\main.197c1b79.js.LICENSE.txt" />
+    <Content Remove="wwwroot\build\static\media\avatar-1.3921191a8acf79d3e907.jpg" />
+    <Content Remove="wwwroot\build\static\media\avatar-2.feb0f89de58f0ef9b424.jpg" />
+    <Content Remove="wwwroot\build\static\media\avatar-3.2cfd5ba6f0dee8d1d076.jpg" />
+    <Content Remove="wwwroot\build\static\media\avatar-4.b23e41d9c09997efbc21.jpg" />
+    <Content Remove="wwwroot\build\static\media\avatar-5.a5c59cee7b3dfda1156d.jpg" />
+    <Content Remove="wwwroot\build\static\media\avatar-6.dc44eabff29dbd9780cb.jpg" />
+    <Content Remove="wwwroot\build\static\media\avatar-7.5ba5195e48f4c2c3c3fa.jpg" />
+    <Content Remove="wwwroot\build\static\media\avatar-8.ad5418a90c29c2b98640.jpg" />
+    <Content Remove="wwwroot\build\static\media\axios.e7d77f0967a69d31d7fc.cjs" />
+    <Content Remove="wwwroot\build\static\media\img-1.426295a46294a7925c73.jpg" />
+    <Content Remove="wwwroot\build\static\media\img-2.47239849213a8e77c6ce.jpg" />
+    <Content Remove="wwwroot\build\static\media\img-4.c7a84ad5058b9382090e.jpg" />
+    <Content Remove="wwwroot\build\static\media\img-6.b0b6b01a87aeb7eee189.jpg" />
+    <Content Remove="wwwroot\build\static\media\img-7.c1d24290e482cebe87d1.jpg" />
+    <Content Remove="wwwroot\build\static\media\logo.e41f6087382055646c1c02d0a63583d5.svg" />
+    <Content Remove="wwwroot\build\static\media\materialdesignicons-webfont.21d6dd0b5b32336e7cff.eot" />
+    <Content Remove="wwwroot\build\static\media\materialdesignicons-webfont.bd5c85afa91031c7cdca.woff" />
+    <Content Remove="wwwroot\build\static\media\materialdesignicons-webfont.eacc60984c4a668938dd.woff2" />
+    <Content Remove="wwwroot\build\static\media\materialdesignicons-webfont.f60b16c8d4cd35506d0b.ttf" />
+    <Content Remove="wwwroot\build\static\media\remixicon.84901c6fa3ddba24ed16.woff2" />
+    <Content Remove="wwwroot\build\static\media\remixicon.99a59d50b72818687f2c.ttf" />
+    <Content Remove="wwwroot\build\static\media\remixicon.b1b2a94825a3e4b52765.svg" />
+    <Content Remove="wwwroot\build\static\media\remixicon.d305405d497921ad44fa.woff" />
+    <Content Remove="wwwroot\build\static\media\remixicon.ea0a4a94af1b5f50b1d0.eot" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="agora_rtc_sdk" Version="4.2.1" />
@@ -19,6 +60,55 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\uploads\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\build\favicon.ico" />
+    <None Include="wwwroot\build\index.html" />
+    <None Include="wwwroot\build\robots.txt" />
+    <None Include="wwwroot\build\static\css\main.1fa651b0.css" />
+    <None Include="wwwroot\build\static\js\115.10056599.chunk.js" />
+    <None Include="wwwroot\build\static\js\283.25f31579.chunk.js" />
+    <None Include="wwwroot\build\static\js\367.fb024649.chunk.js" />
+    <None Include="wwwroot\build\static\js\378.f9600b73.chunk.js" />
+    <None Include="wwwroot\build\static\js\748.3acf0abc.chunk.js" />
+    <None Include="wwwroot\build\static\js\769.e183df80.chunk.js" />
+    <None Include="wwwroot\build\static\js\818.ea3fbd2e.chunk.js" />
+    <None Include="wwwroot\build\static\js\main.197c1b79.js" />
+    <None Include="wwwroot\build\static\js\main.197c1b79.js.LICENSE.txt" />
+    <None Include="wwwroot\build\static\media\avatar-1.3921191a8acf79d3e907.jpg" />
+    <None Include="wwwroot\build\static\media\avatar-2.feb0f89de58f0ef9b424.jpg" />
+    <None Include="wwwroot\build\static\media\avatar-3.2cfd5ba6f0dee8d1d076.jpg" />
+    <None Include="wwwroot\build\static\media\avatar-4.b23e41d9c09997efbc21.jpg" />
+    <None Include="wwwroot\build\static\media\avatar-5.a5c59cee7b3dfda1156d.jpg" />
+    <None Include="wwwroot\build\static\media\avatar-6.dc44eabff29dbd9780cb.jpg" />
+    <None Include="wwwroot\build\static\media\avatar-7.5ba5195e48f4c2c3c3fa.jpg" />
+    <None Include="wwwroot\build\static\media\avatar-8.ad5418a90c29c2b98640.jpg" />
+    <None Include="wwwroot\build\static\media\axios.e7d77f0967a69d31d7fc.cjs" />
+    <None Include="wwwroot\build\static\media\img-1.426295a46294a7925c73.jpg" />
+    <None Include="wwwroot\build\static\media\img-2.47239849213a8e77c6ce.jpg" />
+    <None Include="wwwroot\build\static\media\img-4.c7a84ad5058b9382090e.jpg" />
+    <None Include="wwwroot\build\static\media\img-6.b0b6b01a87aeb7eee189.jpg" />
+    <None Include="wwwroot\build\static\media\img-7.c1d24290e482cebe87d1.jpg" />
+    <None Include="wwwroot\build\static\media\logo.e41f6087382055646c1c02d0a63583d5.svg" />
+    <None Include="wwwroot\build\static\media\materialdesignicons-webfont.21d6dd0b5b32336e7cff.eot" />
+    <None Include="wwwroot\build\static\media\materialdesignicons-webfont.bd5c85afa91031c7cdca.woff" />
+    <None Include="wwwroot\build\static\media\materialdesignicons-webfont.eacc60984c4a668938dd.woff2" />
+    <None Include="wwwroot\build\static\media\materialdesignicons-webfont.f60b16c8d4cd35506d0b.ttf" />
+    <None Include="wwwroot\build\static\media\remixicon.84901c6fa3ddba24ed16.woff2" />
+    <None Include="wwwroot\build\static\media\remixicon.99a59d50b72818687f2c.ttf" />
+    <None Include="wwwroot\build\static\media\remixicon.b1b2a94825a3e4b52765.svg" />
+    <None Include="wwwroot\build\static\media\remixicon.d305405d497921ad44fa.woff" />
+    <None Include="wwwroot\build\static\media\remixicon.ea0a4a94af1b5f50b1d0.eot" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot\build\asset-manifest.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\build\manifest.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>

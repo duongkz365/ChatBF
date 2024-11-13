@@ -251,3 +251,15 @@ C:\Users\Administrator\Desktop\ChatBF\ChatBE\ChatBE\obj\Debug\net8.0\refint\Chat
 C:\Users\Administrator\Desktop\ChatBF\ChatBE\ChatBE\obj\Debug\net8.0\ChatBE.pdb
 C:\Users\Administrator\Desktop\ChatBF\ChatBE\ChatBE\obj\Debug\net8.0\ChatBE.genruntimeconfig.cache
 C:\Users\Administrator\Desktop\ChatBF\ChatBE\ChatBE\obj\Debug\net8.0\ref\ChatBE.dll
+C:\Users\Administrator\Desktop\ChatBF\ChatBE\ChatBE\bin\Debug\net8.0\wwwroot\build\asset-manifest.json
+C:\Users\Administrator\Desktop\ChatBF\ChatBE\ChatBE\bin\Debug\net8.0\wwwroot\build\manifest.json
+C:\Users\Administrator\Desktop\ChatBF\ChatBE\ChatBE\bin\Debug\net8.0\WebAPI\ReactApp\build\asset-manifest.json
+C:\Users\Administrator\Desktop\ChatBF\ChatBE\ChatBE\bin\Debug\net8.0\WebAPI\ReactApp\build\manifest.json
+C:\Users\Administrator\Desktop\ChatBF\ChatBE\ChatBE\bin\Debug\net8.0\WebAPI\ReactApp\package-lock.json
+C:\Users\Administrator\Desktop\ChatBF\ChatBE\ChatBE\bin\Debug\net8.0\WebAPI\ReactApp\package.json
+C:\Users\Administrator\Desktop\ChatBF\ChatBE\ChatBE\bin\Debug\net8.0\WebAPI\ReactApp\public\manifest.json
+C:\Users\Administrator\Desktop\ChatBF\ChatBE\ChatBE\bin\Debug\net8.0\WebAPI\ReactApp\src\locales\en\translation.json
+C:\Users\Administrator\Desktop\ChatBF\ChatBE\ChatBE\bin\Debug\net8.0\WebAPI\ReactApp\src\locales\gr\translation.json
+C:\Users\Administrator\Desktop\ChatBF\ChatBE\ChatBE\bin\Debug\net8.0\WebAPI\ReactApp\src\locales\it\translation.json
+C:\Users\Administrator\Desktop\ChatBF\ChatBE\ChatBE\bin\Debug\net8.0\WebAPI\ReactApp\src\locales\rs\translation.json
+C:\Users\Administrator\Desktop\ChatBF\ChatBE\ChatBE\bin\Debug\net8.0\WebAPI\ReactApp\src\locales\sp\translation.json

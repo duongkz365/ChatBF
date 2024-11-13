@@ -5,8 +5,8 @@
     "\\ChatBE\\ChatBE",
     "\\ChatBE\\ChatBE\\WebAPI",
     "\\ChatBE\\ChatBE\\WebAPI\\Controllers",
-    "\\ChatviaFE"
+    "\\ChatBE\\ChatBE\\WebAPI\\ReactApp"
   ],
-  "SelectedNode": "\\ChatviaFE\\public",
+  "SelectedNode": "\\ChatBE\\ChatBE.sln",
   "PreviewInSolutionExplorer": false
 }

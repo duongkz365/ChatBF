@@ -131,6 +131,8 @@ if (!Directory.Exists(uploadsFolderPath))
     Directory.CreateDirectory(uploadsFolderPath);
 }
 
+
+
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
@@ -139,7 +141,8 @@ app.MapControllers();
 app.MapHub<NotificationHub>("/chathub");
 app.MapHub<CallHub>("/callhub");
 
-Console.WriteLine("SignalR CallHub running on /callhub");
+app.UseStaticFiles(); // Đảm bảo để ASP.NET phục vụ các tệp tĩnh trong wwwroot
+
 
 app.Run();
 

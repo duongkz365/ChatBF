@@ -1,3 +1,5 @@
+wwwroot\build\asset-manifest.json
+wwwroot\build\manifest.json
 wwwroot\uploads\01d18bd3-3bc2-4e25-8521-2732fd1e431d_Screenshot 2024-08-06 220146.png
 wwwroot\uploads\06f0ea7c-54bc-4252-b2dd-e6aa60d5393f_0f25804f-aa29-4436-94d9-a5da8d5436b1.jpg
 wwwroot\uploads\08bef30f-a3f3-4c2c-a5db-b4409aa5365d_ThoiKhoaBieu.pdf
