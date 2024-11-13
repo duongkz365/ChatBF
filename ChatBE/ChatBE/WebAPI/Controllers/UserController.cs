@@ -67,4 +67,43 @@ public class UserController : ControllerBase
         var message = await _userService.Update(user);
         return Ok(new { message });
     }
+
+    [HttpPost("upload-avatar")]
+    public async Task<IActionResult> UploadAvatar(IFormFile file)
+    {
+        if (file == null || file.Length == 0)
+        {
+            return BadRequest("Không có file được tải lên");
+        }
+
+        var uploadPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", "profile-pictures");
+        if (!Directory.Exists(uploadPath))
+        {
+            Directory.CreateDirectory(uploadPath);
+        }
+
+        var fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
+        var filePath = Path.Combine(uploadPath, fileName);
+
+        try
+        {
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                await file.CopyToAsync(stream);
+            }
+
+            var token = Request.Headers["Authorization"].ToString().Replace("Bearer ", "");
+            var user = await _userService.GetProfile(token);
+
+            user.AvatarUrl = filePath; // Cập nhật URL ảnh đại diện mới
+            var message = await _userService.Update(user);
+
+            return Ok(new { message = "Ảnh đại diện đã được cập nhật thành công!" });
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, new { message = $"Lỗi khi tải file lên: {ex.Message}" });
+        }
+    }
+
 }

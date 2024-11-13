@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ChatBE",
+    "\\ChatviaFE",
+    "\\ChatviaFE\\src",
+    "\\ChatviaFE\\src\\pages",
+    "\\ChatviaFE\\src\\pages\\dashboard",
+    "\\ChatviaFE\\src\\pages\\dashboard\\Tabs",
+    "\\ChatviaFE\\src\\pages\\dashboard\\UserChat",
+    "\\ChatviaFE\\src\\redux",
+    "\\ChatviaFE\\src\\redux\\message"
+  ],
+  "SelectedNode": "\\ChatviaFE\\src\\pages\\dashboard\\UserChat\\FileList.js",
+  "PreviewInSolutionExplorer": false
+}
