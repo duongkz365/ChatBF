@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dD23dakdp1E=",
+  "dgSpecHash": "gBinmJvEH6s=",
   "success": true,
-  "projectFilePath": "C:\\Users\\KyDing\\Desktop\\Net\\ChatBF\\ChatBE\\ChatBE\\ChatBE.csproj",
+  "projectFilePath": "C:\\Users\\KyDing\\Desktop\\NetFinal\\ChatBF\\ChatBE\\ChatBE\\ChatBE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\KyDing\\.nuget\\packages\\agora_rtc_sdk\\4.2.1\\agora_rtc_sdk.4.2.1.nupkg.sha512",
     "C:\\Users\\KyDing\\.nuget\\packages\\bouncycastle.cryptography\\2.4.0\\bouncycastle.cryptography.2.4.0.nupkg.sha512",

@@ -8,6 +8,7 @@ const StarterPage = React.lazy(() => import("../pages/StarterPage/index"));
 const VideoCall = React.lazy(()=> import("../pages/Call/VideoCall") );
 const VoiceCall = React.lazy(()=> import("../pages/Call/VoiceCall") );
 const CallPending = React.lazy(()=> import("../pages/Call/CallPending") );
+const VideoCallStream = React.lazy(()=> import("../pages/Call/VideoCallStream") );
 
 
 
@@ -47,6 +48,8 @@ const authProtectedRoutes = [
 
 const publicRoutes = [
   { path: "/logout", component: <Logout /> },
+  { path: "/video-call-stream", component: <VideoCallStream /> },
+
   { path: "/login", component: <Login /> },
   { path: "/forget-password", component: <ForgetPassword /> },
   { path: "/register", component: <Register /> },

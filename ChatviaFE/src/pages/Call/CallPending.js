@@ -1,34 +1,45 @@
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { Button } from "reactstrap";
+import { useSignalR } from "../../routes/SignalRContext";
 
 const CallPending = () => {
 
-
-    const profileState = useSelector((state)=> state.Profile)
-
-    console.log(profileState)
+    const {onEvent } = useSignalR();
 
     const [isCall, setIsCall] = useState(false);
-    const callValue = JSON.parse( localStorage.getItem('call'));
-    console.log(useSelector);
+
+    const stream = JSON.parse(localStorage.getItem('stream'));
+
+    if(!stream){
+        window.location.href = '/';
+    }
+      
+    const userId = localStorage.getItem("userId");
 
 
+    useEffect(() => {
+        onEvent("CancelVideoCall", (message) => {
+            if (userId && message && message.receiver.userId === userId) {
+                localStorage.setItem("stream", "");
+                window.location.href = "/";    
+            }
+        });
+      }, [onEvent, userId]);
     const handleAccept = ()=> {
 
 
         // fetch SERVER
 
-        fetch("https://localhost:7098/api/Agora/accept", {
+        fetch("https://localhost:7098/api/Stream/acceptvideocall", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
             },
             body: JSON.stringify({
-              token: callValue.call.token,
-              channel: callValue.call.channel,
-              caller: callValue.call.caller,
-              receiver: callValue.call.receiver,
+              roomId: stream.roomId,
+              caller: stream.caller.userId,
+              receiver: stream.caller.userId,
             }),
           })
             .then((response) => {
@@ -43,24 +54,20 @@ const CallPending = () => {
             .catch((error) => {
               console.error("Error:", error);
             });
-
-
-        //Navigate
-        window.location.href = '/video-call'
+        // //Navigate
+        window.location.href = '/video-call-stream?type=one-on-one'
     }
 
     const handleCancel = ()=> {
-
-        fetch("https://localhost:7098/api/Agora/cancel", {
+        fetch("https://localhost:7098/api/Stream/refusevideocall", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
             },
             body: JSON.stringify({
-              token: callValue.call.token,
-              channel: callValue.call.channel,
-              caller: callValue.call.caller,
-              receiver: callValue.call.receiver,
+              roomId: stream.roomId,
+              caller: stream.caller.userId,
+              receiver: stream.caller.userId,
             }),
           })
             .then((response) => {
@@ -76,8 +83,12 @@ const CallPending = () => {
               console.error("Error:", error);
             });
 
+        localStorage.setItem("stream", "");
         window.location.href = '/'
     }
+
+
+
 
     return (
         <div className="call-pending" style={
@@ -101,7 +112,7 @@ const CallPending = () => {
                     }}
             >
                     <h2 className="pending Name">
-                        {callValue.caller.fullName}
+                        {/* {callValue.caller.fullName} */}
                     </h2>
                     <p>Calling...</p>
 

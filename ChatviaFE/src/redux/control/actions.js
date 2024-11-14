@@ -1,4 +1,4 @@
-import { SELECTED_MESSAGE, SEND_VALUE_VIDEO_CALL } from "../actionTypes";
+import { SELECTED_MESSAGE, SEND_STREAM_VIDEO_CALL, SEND_VALUE_VIDEO_CALL } from "../actionTypes";
 
 export const selectedMessage = (otherId) => (
     {
@@ -12,3 +12,8 @@ export const sendValueVideoCall = (channelName, token, caller, receiver) => (
         payload: {channelName, token,caller,receiver}
     }
 )
+
+export const sendStreamVideoCall = (message) => ({
+    type: "SEND_STREAM_VIDEO_CALL",
+    payload: message,
+});
