@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "64b0e8fcb8e4f7a912345678"
+  },
+  "name": "Chat Group 1",
+  "avatar": "https://example.com/avatar1.png",
+  "description": "This is a group for project discussion",
+  "members": [
+    {
+      "$binary": {
+        "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+        "subType": "04"
+      }
+    },
+    {
+      "$binary": {
+        "base64": "8aLU+Iw+S5O1sjpNcSGk/w==",
+        "subType": "04"
+      }
+    }
+  ],
+  "createdBy": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "createdAt": {
+    "$date": "2024-10-22T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-22T12:00:00.000Z"
+  },
+  "groupId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  }
+}]

@@ -1,0 +1,338 @@
+[{
+  "_id": {
+    "$oid": "671796c08e0b4296809349c6"
+  },
+  "userId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "userName": "admin",
+  "email": "admin@admin.com",
+  "passwordHash": "kydinh",
+  "fullName": "Đinh Dương Kỳ",
+  "avatarUrl": "https://localhost:7098/uploads/avt01.jpg",
+  "bio": "This is a Admin",
+  "createdAt": {
+    "$date": "2024-10-22T12:12:48.558Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-23T12:01:19.163Z"
+  },
+  "lastLogin": null,
+  "isActive": true,
+  "permission": "admin"
+},
+{
+  "_id": {
+    "$oid": "6718b4c43844db4ffd971791"
+  },
+  "userId": {
+    "$binary": {
+      "base64": "NnZqvwWUQUucddZmuEpUMw==",
+      "subType": "04"
+    }
+  },
+  "userName": "john_doe",
+  "email": "john@example.com",
+  "passwordHash": "password123",
+  "fullName": "John Doe",
+  "avatarUrl": "https://localhost:7266/uploads/avt01.jpg",
+  "bio": "Software Developer",
+  "createdAt": {
+    "$date": "2024-10-23T08:33:08.056Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-23T08:33:08.056Z"
+  },
+  "lastLogin": null,
+  "isActive": true,
+  "permission": "user"
+},
+{
+  "_id": {
+    "$oid": "671b8e66a64c052c7fa0e6e2"
+  },
+  "userId": {
+    "$binary": {
+      "base64": "H9QWk4+DQKab1kRqzxtUuA==",
+      "subType": "04"
+    }
+  },
+  "userName": "dinhduongky",
+  "email": "dinhky2468@gmail.com",
+  "passwordHash": "zLUnEgaJ",
+  "fullName": "John Doe",
+  "avatarUrl": "https://localhost:7266/uploads/avt01.jpg",
+  "bio": "Software Developer",
+  "createdAt": {
+    "$date": "2024-10-25T12:26:14.096Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-25T12:26:14.096Z"
+  },
+  "lastLogin": null,
+  "isActive": true,
+  "permission": "user"
+},
+{
+  "_id": {
+    "$oid": "671e2bd3421a24a03c963afe"
+  },
+  "userId": {
+    "$binary": {
+      "base64": "93M6Jlu6RaqgaKCiyHPCNQ==",
+      "subType": "04"
+    }
+  },
+  "userName": "dinhdu3ongky",
+  "email": "dinhky2468@gmailf.com",
+  "passwordHash": "password123",
+  "fullName": "dinhky2468@gmailf.com",
+  "avatarUrl": "https://localhost:7266/uploads/avt01.jpg",
+  "bio": "This is my bio",
+  "createdAt": {
+    "$date": "2024-10-27T12:02:27.439Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-27T12:02:27.439Z"
+  },
+  "lastLogin": null,
+  "isActive": true,
+  "permission": "user"
+},
+{
+  "_id": {
+    "$oid": "671e34cf786ff9ad334e83da"
+  },
+  "userId": {
+    "$binary": {
+      "base64": "5grjjG8OSyeKb6UiYkGGgQ==",
+      "subType": "04"
+    }
+  },
+  "userName": "dinhdu3ongk32y",
+  "email": "dinhky2468@gma32ilf.com",
+  "passwordHash": "password123",
+  "fullName": "dinhky2468@gma32ilf.com",
+  "avatarUrl": "https://localhost:7266/uploads/avt01.jpg",
+  "bio": "This is my bio",
+  "createdAt": {
+    "$date": "2024-10-27T12:40:47.558Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-27T12:40:47.558Z"
+  },
+  "lastLogin": null,
+  "isActive": true,
+  "permission": "user"
+},
+{
+  "_id": {
+    "$oid": "671e3f3c7502cc5dd757217a"
+  },
+  "userId": {
+    "$binary": {
+      "base64": "H0d8Tm+rSdamIWmqzMy8sw==",
+      "subType": "04"
+    }
+  },
+  "userName": "username",
+  "email": "email@gmail.com",
+  "passwordHash": "password",
+  "fullName": "email@gmail.com",
+  "avatarUrl": "https://localhost:7266/uploads/avt01.jpg",
+  "bio": "This is my bio",
+  "createdAt": {
+    "$date": "2024-10-27T13:25:16.946Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-27T13:25:16.946Z"
+  },
+  "lastLogin": null,
+  "isActive": true,
+  "permission": "user"
+},
+{
+  "_id": {
+    "$oid": "671e40227502cc5dd757217f"
+  },
+  "userId": {
+    "$binary": {
+      "base64": "A0kvxL9gTjGw/HjCMFfh6w==",
+      "subType": "04"
+    }
+  },
+  "userName": "username232332",
+  "email": "email@gmail.com323",
+  "passwordHash": "password2323",
+  "fullName": "email@gmail.com323",
+  "avatarUrl": "https://localhost:7266/uploads/avt01.jpg",
+  "bio": "This is my bio",
+  "createdAt": {
+    "$date": "2024-10-27T13:29:06.280Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-27T13:29:06.280Z"
+  },
+  "lastLogin": null,
+  "isActive": true,
+  "permission": "user"
+},
+{
+  "_id": {
+    "$oid": "671e46700d5c34831d291a25"
+  },
+  "userId": {
+    "$binary": {
+      "base64": "2QYRkZYYTBO9jqgWjpIgUg==",
+      "subType": "04"
+    }
+  },
+  "userName": "username1",
+  "email": "email@gmail.com3",
+  "passwordHash": "password",
+  "fullName": "email@gmail.com3",
+  "avatarUrl": "https://localhost:7266/uploads/avt01.jpg",
+  "bio": "This is my bio",
+  "createdAt": {
+    "$date": "2024-10-27T13:56:00.615Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-27T13:56:00.615Z"
+  },
+  "lastLogin": null,
+  "isActive": true,
+  "permission": "user"
+},
+{
+  "_id": {
+    "$oid": "671e47470d5c34831d291a31"
+  },
+  "userId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "userName": "username13",
+  "email": "email@gmail.com1",
+  "passwordHash": "password1",
+  "fullName": "email@gmail.com1",
+  "avatarUrl": "https://localhost:7098/uploads/ab69ecb7-9541-4562-8507-11995089cc9c_Screenshot%202024-08-06%20220146.png",
+  "bio": "This is my bio",
+  "createdAt": {
+    "$date": "2024-10-27T13:59:35.514Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-27T13:59:35.514Z"
+  },
+  "lastLogin": null,
+  "isActive": true,
+  "permission": "user"
+},
+{
+  "_id": {
+    "$oid": "6720dbe2094e5d837da3d60b"
+  },
+  "userId": {
+    "$binary": {
+      "base64": "YoNkExi2SUarDQp9nIS5Dg==",
+      "subType": "04"
+    }
+  },
+  "userName": "username333",
+  "email": "email@gmail.com32",
+  "passwordHash": "password",
+  "fullName": "email@gmail.com32",
+  "avatarUrl": "https://localhost:7266/uploads/avt01.jpg",
+  "bio": "This is my bio",
+  "createdAt": {
+    "$date": "2024-10-29T12:58:10.998Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-29T12:58:10.998Z"
+  },
+  "lastLogin": null,
+  "isActive": true,
+  "permission": "user"
+},
+{
+  "_id": {
+    "$oid": "6720dc4c094e5d837da3d60d"
+  },
+  "userId": {
+    "$binary": {
+      "base64": "jU+7r2R/Q863aQUj2GmfoQ==",
+      "subType": "04"
+    }
+  },
+  "userName": "username2332",
+  "email": "email@gmail.com123123",
+  "passwordHash": "password",
+  "fullName": "email@gmail.com123123",
+  "avatarUrl": "https://localhost:7266/uploads/avt01.jpg",
+  "bio": "This is my bio",
+  "createdAt": {
+    "$date": "2024-10-29T12:59:56.835Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-29T12:59:56.835Z"
+  },
+  "lastLogin": null,
+  "isActive": true,
+  "permission": "user"
+},
+{
+  "_id": {
+    "$oid": "67241744f42fc29e26798bc4"
+  },
+  "userId": {
+    "$binary": {
+      "base64": "Bwhckog9TQ+Pq26r/UoB8w==",
+      "subType": "04"
+    }
+  },
+  "userName": "string",
+  "email": "string",
+  "passwordHash": "string",
+  "fullName": "string",
+  "avatarUrl": "https://localhost:7098/uploads/ab69ecb7-9541-4562-8507-11995089cc9c_Screenshot%202024-08-06%20220146.png",
+  "bio": "This is my bio",
+  "createdAt": {
+    "$date": "2024-10-31T23:48:20.018Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-31T23:48:20.018Z"
+  },
+  "lastLogin": null,
+  "isActive": true,
+  "permission": "user"
+},
+{
+  "_id": {
+    "$oid": "672c18b0725a6ff275e246dc"
+  },
+  "userId": {
+    "$binary": {
+      "base64": "hKNPT5qWTaaD3d4vlyCkag==",
+      "subType": "04"
+    }
+  },
+  "userName": "aloo",
+  "email": "alo",
+  "passwordHash": "alo",
+  "fullName": "alo",
+  "avatarUrl": "https://localhost:7266/uploads/avt01.jpg",
+  "bio": "This is my bio",
+  "createdAt": {
+    "$date": "2024-11-07T01:32:32.915Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-07T01:32:32.915Z"
+  },
+  "lastLogin": null,
+  "isActive": true,
+  "permission": "user"
+}]

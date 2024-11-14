@@ -1,0 +1,154 @@
+[{
+  "_id": {
+    "$oid": "64b0f1fcb8e4f7a912345678"
+  },
+  "userId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "otherId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCQ==",
+      "subType": "04"
+    }
+  },
+  "lastMessage": "Hello, how are you?",
+  "lastSentAt": "2024-10-24T08:06:01.068Z",
+  "lastSenderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "671a12d29ef6d064b8919241"
+  },
+  "userId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "otherId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCQ==",
+      "subType": "04"
+    }
+  },
+  "lastMessage": "Hello, 232312?",
+  "lastSentAt": "2024-10-24T08:06:01.068Z",
+  "lastSenderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "671a12e29ef6d064b8919242"
+  },
+  "userId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "otherId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCQ==",
+      "subType": "04"
+    }
+  },
+  "lastMessage": "Hello, 232312?",
+  "lastSentAt": "2024-10-24T08:06:01.068Z",
+  "lastSenderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "671a12ef9ef6d064b8919243"
+  },
+  "userId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "otherId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCQ==",
+      "subType": "04"
+    }
+  },
+  "lastMessage": "Hello, Ban co khoe khong?",
+  "lastSentAt": "2024-10-24T08:06:01.068Z",
+  "lastSenderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "671a1a0edfeb8ab8b0755972"
+  },
+  "userId": {
+    "$binary": {
+      "base64": "P6hfZFcXRWKz/CyWP2avpg==",
+      "subType": "04"
+    }
+  },
+  "otherId": {
+    "$binary": {
+      "base64": "P6hfZFcXRWKz/CyWP2avpg==",
+      "subType": "04"
+    }
+  },
+  "lastMessage": "Tôi Không khỏe :v",
+  "lastSenderId": {
+    "$binary": {
+      "base64": "P6hfZFcXRWKz/CyWP2avpg==",
+      "subType": "04"
+    }
+  },
+  "lastSentAt": {
+    "$date": "2024-10-24T09:57:34.445Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "671a3e7adfeb8ab8b0755973"
+  },
+  "userId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "otherId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "lastMessage": "",
+  "lastSenderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "lastSentAt": {
+    "$date": "2024-10-30T09:16:20.493Z"
+  }
+}]

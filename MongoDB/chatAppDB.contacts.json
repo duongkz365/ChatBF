@@ -1,0 +1,135 @@
+[{
+  "_id": {
+    "$oid": "64b0e9fcb8e4f7a912345679"
+  },
+  "userId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "contacts": [
+    {
+      "userId": {
+        "$binary": {
+          "base64": "Bwhckog9TQ+Pq26r/UoB8w==",
+          "subType": "04"
+        }
+      },
+      "userName": "string"
+    }
+  ],
+  "blockedContacts": [
+    {
+      "userId": {
+        "$binary": {
+          "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+          "subType": "04"
+        }
+      },
+      "userName": "User 1"
+    }
+  ],
+  "contactRequests": [],
+  "contactPendings": []
+},
+{
+  "_id": {
+    "$oid": "67246cfd553fdb576e706209"
+  },
+  "userId": {
+    "$binary": {
+      "base64": "NnZqvwWUQUucddZmuEpUMw==",
+      "subType": "04"
+    }
+  },
+  "contacts": [],
+  "blockedContacts": [],
+  "contactRequests": [],
+  "contactPendings": []
+},
+{
+  "_id": {
+    "$oid": "67246e7224333f4bd694fddd"
+  },
+  "userId": {
+    "$binary": {
+      "base64": "5grjjG8OSyeKb6UiYkGGgQ==",
+      "subType": "04"
+    }
+  },
+  "contacts": [],
+  "blockedContacts": [],
+  "contactRequests": [],
+  "contactPendings": []
+},
+{
+  "_id": {
+    "$oid": "672490ca924c3303cf1c5893"
+  },
+  "userId": {
+    "$binary": {
+      "base64": "Bwhckog9TQ+Pq26r/UoB8w==",
+      "subType": "04"
+    }
+  },
+  "contacts": [
+    {
+      "userId": {
+        "$binary": {
+          "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+          "subType": "04"
+        }
+      },
+      "userName": "admin"
+    }
+  ],
+  "blockedContacts": [],
+  "contactRequests": [],
+  "contactPendings": []
+},
+{
+  "_id": {
+    "$oid": "672490ef924c3303cf1c5896"
+  },
+  "userId": {
+    "$binary": {
+      "base64": "jU+7r2R/Q863aQUj2GmfoQ==",
+      "subType": "04"
+    }
+  },
+  "contacts": [],
+  "blockedContacts": [],
+  "contactRequests": [],
+  "contactPendings": []
+},
+{
+  "_id": {
+    "$oid": "6724d0fbee1f85d800e12497"
+  },
+  "userId": {
+    "$binary": {
+      "base64": "2QYRkZYYTBO9jqgWjpIgUg==",
+      "subType": "04"
+    }
+  },
+  "contacts": [],
+  "blockedContacts": [],
+  "contactRequests": [],
+  "contactPendings": []
+},
+{
+  "_id": {
+    "$oid": "6724d125ee1f85d800e1249b"
+  },
+  "userId": {
+    "$binary": {
+      "base64": "93M6Jlu6RaqgaKCiyHPCNQ==",
+      "subType": "04"
+    }
+  },
+  "contacts": [],
+  "blockedContacts": [],
+  "contactRequests": [],
+  "contactPendings": []
+}]
