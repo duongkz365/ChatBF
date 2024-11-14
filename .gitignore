@@ -1,0 +1,13 @@
+# Node.js
+/AgoraServer/node_modules/
+
+# React.js
+/ChatviaFE/node_modules/
+/ChatviaFE/build/
+
+
+*.vs
+*.suo
+*.user
+*.bin
+*.obj

@@ -1,0 +1,142 @@
+.chat-container {
+  padding: 1rem;
+ 
+ 
+}
+
+.chat-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.chat-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.sender .user-chat-content {
+  /* align-items: flex-end;  */
+  /* text-align: right;  */
+}
+
+.receiver .user-chat-content {
+  /* align-items: flex-start;  */
+  /* text-align: left;  */
+}
+
+.chat-avatar img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.user-chat-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px; /* Thêm padding bên trong nội dung */
+  margin: 0 10px; /* Đặt margin đồng đều cho cả hai bên */
+  border-radius: 10px; /* Góc bo cho tin nhắn */
+}
+
+.ctext-wrap {
+  background-color: none; /* Màu nền cho tin nhắn của người nhận */
+  border-radius: 8px;
+  padding: 10px;
+  position: relative;
+}
+
+.sender .ctext-wrap {
+  background-color: none; /* Màu nền cho tin nhắn của người gửi */
+  color: white; /* Màu chữ cho tin nhắn của người gửi */
+}
+
+.chat-time {
+  font-size: 0.75rem;
+  color: #999;
+  text-align: right;
+  margin-top: 5px;
+}
+
+.typing-indicator {
+  color: #999;
+}
+
+.typing-indicator .dot {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.conversation-name {
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: #333;
+  margin-top: 5px;
+}
+
+.receiver .conversation-name {
+  text-align: left; /* Tên của người nhận căn trái */
+}
+
+.sender .conversation-name {
+  text-align: right; /* Tên của người gửi căn phải */
+}
+
+/* Đảm bảo cả hai bên căn chỉnh đúng */
+.receiver {
+  justify-content: flex-start; /* Căn trái cho tin nhắn người nhận */
+}
+
+.sender {
+  justify-content: flex-end; /* Căn phải cho tin nhắn người gửi */
+}
+
+.image-list {
+  max-width: 300px;
+}
+
+.image-item-message {
+  max-width: 100%; /* Đặt kích thước tối đa cho ảnh */
+  max-height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.conversation-list {
+  width: 100%; /* Hoặc set chiều rộng theo ý muốn */
+  display: flex; /* Sử dụng flex để dễ căn chỉnh */
+  align-items: flex-start; /* Căn chỉnh theo chiều dọc */
+  
+}
+.sender .conversation-list  {
+  justify-content: flex-end;
+}
+
+
+.ctext-wrap-content {
+  background-color: ctext-wrap-content;
+}
+
+.message-list {
+  list-style: none;
+}
+.conversation-list {
+  width: 100%;
+}
+
+
+.message-item.sender {
+  display: flex;
+  justify-content: right;
+}
+
