@@ -1,0 +1,4052 @@
+[{
+  "_id": {
+    "$oid": "64b0f1fcb8e4f7a912345678"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "Hello, how are you?",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-22T10:30:00.000Z"
+  },
+  "readAt": {
+    "$date": "2024-10-22T10:32:00.000Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6719addff8136bd672c3df9d"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "P6hfZFcXRWKz/CyWP2avpg==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "P6hfZFcXRWKz/CyWP2avpg==",
+      "subType": "04"
+    }
+  },
+  "content": "This is content of message",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-24T02:15:59.934Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6719ae08f8136bd672c3df9e"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "P6hfZFcXRWKz/CyWP2avpg==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "P6hfZFcXRWKz/CyWP2avpg==",
+      "subType": "04"
+    }
+  },
+  "content": "Bạn Có Khỏe Không :v",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-24T02:16:40.365Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6719ffe97d62f6fb118061b9"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "5c063a69-de56-441a-a315-4759af37f1fb_Screenshot 2024-08-06 220146.png",
+  "messageType": "file",
+  "mediaUrl": "https://localhost:7266/uploads/5c063a69-de56-441a-a315-4759af37f1fb_Screenshot%202024-08-06%20220146.png",
+  "sentAt": {
+    "$date": "2024-10-24T08:06:01.068Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "671a18a44930a8d7afa27875"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "P6hfZFcXRWKz/CyWP2avpg==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "P6hfZFcXRWKz/CyWP2avpg==",
+      "subType": "04"
+    }
+  },
+  "content": "Bạn Có Khỏe Không :v",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-24T09:51:32.516Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "671a1a0e2127626b7a95c959"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "P6hfZFcXRWKz/CyWP2avpg==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "P6hfZFcXRWKz/CyWP2avpg==",
+      "subType": "04"
+    }
+  },
+  "content": "Tôi Không khỏe :v",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-24T09:57:34.445Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "671a3dcef179dc2a907032ae"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "5f2ae19a-ac8e-4564-97e8-2a21a5e82ff9_Screenshot 2024-08-06 220146.png",
+  "messageType": "file",
+  "mediaUrl": "https://localhost:7098/uploads/5f2ae19a-ac8e-4564-97e8-2a21a5e82ff9_Screenshot%202024-08-06%20220146.png",
+  "sentAt": {
+    "$date": "2024-10-24T12:30:06.518Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "671a3e7a61072fe2cafd4333"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "f19a154a-0981-42c5-8481-866438b97d4c_Screenshot 2024-08-06 220146.png",
+  "messageType": "image",
+  "mediaUrl": "https://localhost:7098/uploads/f19a154a-0981-42c5-8481-866438b97d4c_Screenshot%202024-08-06%20220146.png",
+  "sentAt": {
+    "$date": "2024-10-24T12:32:58.695Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "671c9cee636c74b5952b66dd"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "P6hfZFcXRWKz/CyWP2avpg==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "P6hfZFcXRWKz/CyWP2avpg==",
+      "subType": "04"
+    }
+  },
+  "content": "Tôi Không khỏe :v",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-26T07:40:30.124Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "671c9d0b636c74b5952b66de"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "P6hfZFcXRWKz/CyWP2avpg==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "P6hfZFcXRWKz/CyWP2avpg==",
+      "subType": "04"
+    }
+  },
+  "content": "Tôi Không khỏe bạn khỏe không :v",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-26T07:40:59.821Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "671ca0e6b279b488ea541f38"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "P6hfZFcXRWKz/CyWP2avpg==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "P6hfZFcXRWKz/CyWP2avpg==",
+      "subType": "04"
+    }
+  },
+  "content": "Tôi Không khỏe bạn khỏe không :v",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-26T07:57:26.083Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "671ca127b279b488ea541f39"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "P6hfZFcXRWKz/CyWP2avpg==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "P6hfZFcXRWKz/CyWP2avpg==",
+      "subType": "04"
+    }
+  },
+  "content": "Tôi Không khỏe bạn khỏe không :v",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-26T07:58:31.574Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "671cab1a5b739db305abd4cf"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "P6hfZFcXRWKz/CyWP2avpg==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "P6hfZFcXRWKz/CyWP2avpg==",
+      "subType": "04"
+    }
+  },
+  "content": "Tôi Không khỏe bạn khỏe không :v",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-26T08:40:58.935Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "671cb1d92524fafd45c08391"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "P6hfZFcXRWKz/CyWP2avpg==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "P6hfZFcXRWKz/CyWP2avpg==",
+      "subType": "04"
+    }
+  },
+  "content": "Tôi Không khỏe bạn khỏe không :v",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-26T09:09:45.407Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "671cde982524fafd45c08392"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "P6hfZFcXRWKz/CyWP2avpg==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "P6hfZFcXRWKz/CyWP2avpg==",
+      "subType": "04"
+    }
+  },
+  "content": "Tôi Không khỏe bạn khỏe không :v",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-26T12:20:40.992Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "671cdea32524fafd45c08393"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "P6hfZFcXRWKz/CyWP2avpg==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "P6hfZFcXRWKz/CyWP2avpg==",
+      "subType": "04"
+    }
+  },
+  "content": "Tôi Không khỏe bạn khỏe không không :v",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-26T12:20:51.609Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "671cdf000626e65ed5dfedec"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "P6hfZFcXRWKz/CyWP2avpg==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "P6hfZFcXRWKz/CyWP2avpg==",
+      "subType": "04"
+    }
+  },
+  "content": "Tôi Không khỏe bạn khỏe không không :v",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-26T12:22:24.642Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "671cdf170626e65ed5dfeded"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "P6hfZFcXRWKz/CyWP2avpg==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "P6hfZFcXRWKz/CyWP2avpg==",
+      "subType": "04"
+    }
+  },
+  "content": "Tôi Không khỏe bạn khỏe không không :v",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-26T12:22:47.150Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "671dc609b90e9043e6bd8254"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "P6hfZFcXRWKz/CyWP2avpg==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "P6hfZFcXRWKz/CyWP2avpg==",
+      "subType": "04"
+    }
+  },
+  "content": "Tôi Không khỏe bạn khỏe không không :v",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-27T04:48:09.480Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "671f7fe42e4260eff9b00015"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "Hello, how are you?",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-22T10:30:00.000Z"
+  },
+  "readAt": {
+    "$date": "2024-10-22T10:32:00.000Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "671f7fe42e4260eff9b00016"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "I am fine, thank you!",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-22T10:35:00.000Z"
+  },
+  "readAt": {
+    "$date": "2024-10-22T10:36:00.000Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "671f7fe42e4260eff9b00017"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "What are you up to today?",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-22T10:40:00.000Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6721e9720f4b0626ba4af311"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "Tôi Không khỏe bạn khỏe không không :v",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T08:08:18.228Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6721eb2c0f4b0626ba4af330"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "Tôi Không khỏe bạn khỏe không không :v",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T08:15:40.200Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6721ebd40f4b0626ba4af33b"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "dsdsd",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T08:18:28.416Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6721ec2b0f4b0626ba4af34a"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "Tôi đây",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T08:19:55.574Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6721ec690f4b0626ba4af356"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "buồn ngủ quá",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T08:20:57.269Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6721ec6a0f4b0626ba4af357"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "buồn ngủ quá",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T08:20:58.995Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6721ecd80f4b0626ba4af35c"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "gui",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T08:22:48.559Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6721edfd0f4b0626ba4af36d"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "dsd",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T08:27:41.279Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6721eeed0f4b0626ba4af378"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "ngu di",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T08:31:41.212Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6721ef6b0f4b0626ba4af37e"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "ok",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T08:33:47.786Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6721ef750f4b0626ba4af381"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "ok",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T08:33:57.597Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6721ef9e0f4b0626ba4af384"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "ok",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T08:34:38.221Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6721f0510f4b0626ba4af387"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "ok",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T08:37:37.980Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6721f0560f4b0626ba4af38a"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "ass",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T08:37:42.548Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6721f0770f4b0626ba4af38d"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "dsdd",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T08:38:15.785Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6721f0e50f4b0626ba4af390"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "fdf",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T08:40:05.974Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6721f10e0f4b0626ba4af393"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "test cuon xuong",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T08:40:46.745Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6721f1110f4b0626ba4af396"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "cuon xuong",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T08:40:49.307Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6721f1140f4b0626ba4af399"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "cuon xuong di",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T08:40:52.175Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6721f1220f4b0626ba4af39c"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "quá ok",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T08:41:06.072Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6721f1480f4b0626ba4af39f"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "không thấy thằng kia luon",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T08:41:44.615Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6721f1540f4b0626ba4af3a7"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "ok chưa",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T08:41:56.845Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6721f6a76a4691d8b8cacaf2"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "hay không",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T09:04:39.742Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6721f9646a4691d8b8cacaf5"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "40720e28-bb08-40a4-8f4c-b0e5ccdd1bec_Screenshot 2024-08-06 220146.png",
+  "messageType": "file",
+  "mediaUrl": "https://localhost:7266/uploads/40720e28-bb08-40a4-8f4c-b0e5ccdd1bec_Screenshot%202024-08-06%20220146.png",
+  "sentAt": {
+    "$date": "2024-10-30T09:16:20.493Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6721fb336a4691d8b8cacafb"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T09:24:03.384Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6721fd9b6a4691d8b8cacb03"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T09:34:19.951Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6721fdef6a4691d8b8cacb0b"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T09:35:43.206Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "672201b61274341112507156"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "admin",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T09:51:50.591Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "672201f21274341112507158"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "admin",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T09:52:50.719Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6722025b1274341112507166"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "dsds",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T09:54:35.775Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "672202621274341112507168"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "dsdsd",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T09:54:42.045Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6722027e1274341112507171"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "fdfđf",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T09:55:10.277Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "672202881274341112507176"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "ngày xưa",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T09:55:20.420Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "67220294127434111250717b"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "ai lá ngọc cành vàng",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T09:55:32.566Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "672202aa1274341112507180"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "em chính em ngày xưa đó",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T09:55:54.678Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "672202b41274341112507186"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "bán sữa đậu nành",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T09:56:04.751Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "672202b9127434111250718c"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "ai buồn vì ai",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T09:56:09.066Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "672202c11274341112507192"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "cũng ok",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T09:56:17.967Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "672208691274341112507197"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "oke",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T10:20:25.606Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6722086c127434111250719c"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "okeokdfdksfksíndffds",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T10:20:28.978Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6722087412743411125071a1"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "fdfdsfêfsdfđf",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T10:20:36.009Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6722089312743411125071a7"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "oke",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T10:21:07.747Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "672209b312743411125071ba"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "send message request",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T10:25:55.101Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "67220e2c1274341112507207"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T10:45:00.330Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "67220e41127434111250720c"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "seb ",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T10:45:21.579Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "67220e5c1274341112507213"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "dsdsada",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T10:45:48.442Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "67220e63127434111250721d"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "sent",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T10:45:55.576Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "67220e6b1274341112507224"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "snet",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T10:46:03.730Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "67220e80127434111250722b"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "cons",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T10:46:24.414Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "67220e841274341112507232"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "fdfdf",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T10:46:28.972Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "67220e871274341112507239"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "fdfsád",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T10:46:31.824Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "67220e8a1274341112507240"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "sdfsdfdsf",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T10:46:34.739Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "67220ef0127434111250724c"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "dfsfds",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T10:48:16.130Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "67220f4e127434111250725b"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "alo",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T10:49:50.031Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "672210b61274341112507271"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "alo",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T10:55:50.975Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "672210ce1274341112507272"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "fdffd",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T10:56:14.403Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "672210eb1274341112507273"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "alo",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T10:56:43.548Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6722110a3b1e6b91fcadb170"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "mesagae",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T10:57:14.049Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6722112c3b1e6b91fcadb17a"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "alo",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T10:57:48.951Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "672211313b1e6b91fcadb17f"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "oke",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T10:57:53.742Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "672211393b1e6b91fcadb184"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "username",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T10:58:01.326Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6722120fa967d18d5fc881e4"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "admin",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T11:01:35.018Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "67221250a967d18d5fc881e9"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "alo",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T11:02:40.086Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "67224b9d8b581da3ab4bd6a0"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "hello",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T15:07:09.510Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "67224ba78b581da3ab4bd6a9"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "phúc gà",
+  "messageType": "text",
+  "mediaUrl": null,
+  "sentAt": {
+    "$date": "2024-10-30T15:07:19.862Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6726e66465280a14648807b9"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "Send text",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T02:56:36.704Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T02:56:36.704Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6726e7e9324a64feb01d5802"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "Send textdđ",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T03:03:05.163Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T03:03:05.163Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6726e814324a64feb01d580f"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "Test Hub",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T03:03:48.835Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T03:03:48.835Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6726eaad324a64feb01d5829"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "Test Hub",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T03:14:53.175Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T03:14:53.175Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6726eaae324a64feb01d5836"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "Test Hub",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T03:14:54.555Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T03:14:54.555Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6726eb17324a64feb01d5843"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "Test Hub",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T03:16:39.931Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T03:16:39.931Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6726eb19324a64feb01d5850"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "Test Hub",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T03:16:41.718Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T03:16:41.718Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6726eb1a324a64feb01d585d"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "Test Hub",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T03:16:42.520Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T03:16:42.520Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6726eb1b324a64feb01d586a"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "Test Hub",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T03:16:43.317Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T03:16:43.317Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6726eb1c324a64feb01d5877"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "Test Hub",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T03:16:44.104Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T03:16:44.104Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6726eb1c324a64feb01d5884"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "Test Hub",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T03:16:44.890Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T03:16:44.890Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6726eb1e324a64feb01d5891"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "Test Hub",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T03:16:46.948Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T03:16:46.948Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6726ec57324a64feb01d58c5"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "Test sentd",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T03:21:59.405Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T03:21:59.405Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6726ec5f324a64feb01d58de"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "Test Send 2",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T03:22:07.042Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T03:22:07.042Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6726ec65324a64feb01d58f7"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "Test Send",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T03:22:13.815Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T03:22:13.815Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6726ec88324a64feb01d5910"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "Test Send",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T03:22:48.782Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T03:22:48.782Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6726ec90324a64feb01d5929"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "Send Text",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T03:22:56.778Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T03:22:56.778Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6726ed43324a64feb01d5950"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "Hmm",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T03:25:55.585Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T03:25:55.585Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6726ed49324a64feb01d5975"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "cũng ok đấy",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T03:26:01.233Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T03:26:01.233Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6726ed4e324a64feb01d599a"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "ok không",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T03:26:06.315Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T03:26:06.315Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6726ed51324a64feb01d59bf"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "Ok",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T03:26:09.691Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T03:26:09.691Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6726ed64324a64feb01d59e4"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "o k thì đi nhậu",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T03:26:28.771Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T03:26:28.771Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "672717baca0a36c0144283f6"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Bwhckog9TQ+Pq26r/UoB8w==",
+      "subType": "04"
+    }
+  },
+  "content": "xin chào",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T06:27:06.367Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T06:27:06.367Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "67271f72e946e0f4b9038b3a"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "tôi lớn khoon theo",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T07:00:02.432Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T07:00:02.432Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "67271f7de946e0f4b9038b5f"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "con biết ước mơ của con là gì",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T07:00:13.290Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T07:00:13.290Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "67272029e946e0f4b9038b86"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Bwhckog9TQ+Pq26r/UoB8w==",
+      "subType": "04"
+    }
+  },
+  "content": "Bài ca",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T07:03:05.304Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T07:03:05.304Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6727202ee946e0f4b9038bab"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Bwhckog9TQ+Pq26r/UoB8w==",
+      "subType": "04"
+    }
+  },
+  "content": "nguiờ trong gió quay về",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T07:03:10.626Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T07:03:10.626Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "67273ad7cf6ccb6fe83edc13"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "Test Hub",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T08:56:55.099Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T08:56:55.099Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "67273c0f874d23542e1c7efd"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "72af703f-bbe9-4cda-a1c2-a6048a294001_Screenshot 2024-08-06 220146.png",
+  "messageType": "image",
+  "mediaUrl": "https://localhost:7098/uploads/72af703f-bbe9-4cda-a1c2-a6048a294001_Screenshot 2024-08-06 220146.png",
+  "sentAt": {
+    "$date": "2024-11-03T09:02:07.446Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "67273c630b28bbb31f69844e"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "92b97bf9-0978-4501-979a-eafa50397a80_Screenshot 2024-08-06 220146.png",
+  "messageType": "image",
+  "mediaUrl": "https://localhost:7098/uploads/92b97bf9-0978-4501-979a-eafa50397a80_Screenshot 2024-08-06 220146.png",
+  "sentAt": {
+    "$date": "2024-11-03T09:03:31.990Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "67273c6f0b28bbb31f69845b"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "5f222587-1161-4c5d-b259-f878ceff1c8e_Screenshot 2024-08-06 220146.png",
+  "messageType": "image",
+  "mediaUrl": "https://localhost:7098/uploads/5f222587-1161-4c5d-b259-f878ceff1c8e_Screenshot 2024-08-06 220146.png",
+  "sentAt": {
+    "$date": "2024-11-03T09:03:43.060Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "67273c700b28bbb31f698468"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "01d18bd3-3bc2-4e25-8521-2732fd1e431d_Screenshot 2024-08-06 220146.png",
+  "messageType": "image",
+  "mediaUrl": "https://localhost:7098/uploads/01d18bd3-3bc2-4e25-8521-2732fd1e431d_Screenshot 2024-08-06 220146.png",
+  "sentAt": {
+    "$date": "2024-11-03T09:03:44.727Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "67273c810b28bbb31f698475"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "0c66edfe-d8f7-42d5-ad4f-e2940ff1729e_Screenshot 2024-08-06 220146.png",
+  "messageType": "image",
+  "mediaUrl": "https://localhost:7098/uploads/0c66edfe-d8f7-42d5-ad4f-e2940ff1729e_Screenshot 2024-08-06 220146.png",
+  "sentAt": {
+    "$date": "2024-11-03T09:04:01.274Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "67273ca00b28bbb31f698482"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "d118609d-d7d4-4b42-aeba-fbfe45a7dd11_ThoiKhoaBieu.pdf",
+  "messageType": "file",
+  "mediaUrl": "https://localhost:7098/uploads/d118609d-d7d4-4b42-aeba-fbfe45a7dd11_ThoiKhoaBieu.pdf",
+  "sentAt": {
+    "$date": "2024-11-03T09:04:32.784Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "67273f9f0b28bbb31f6984d0"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Bwhckog9TQ+Pq26r/UoB8w==",
+      "subType": "04"
+    }
+  },
+  "content": "🤫😛🥲😐🫣🫣😐😑😶🤫🤪😍",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T09:17:19.318Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T09:17:19.318Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "67273faa0b28bbb31f6984e9"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Bwhckog9TQ+Pq26r/UoB8w==",
+      "subType": "04"
+    }
+  },
+  "content": "🤫🤫🤫",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T09:17:30.222Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T09:17:30.222Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "672743d50b28bbb31f69851c"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "fdfddsd",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T09:35:17.953Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T09:35:17.953Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "672743d90b28bbb31f698535"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "dsdssdsd",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T09:35:21.708Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T09:35:21.708Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "672743f80b28bbb31f69854e"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T09:35:52.281Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T09:35:52.281Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6727441e0b28bbb31f698567"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "sdsdsd",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T09:36:30.803Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T09:36:30.803Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6727689db050f597592c6753"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Bwhckog9TQ+Pq26r/UoB8w==",
+      "subType": "04"
+    }
+  },
+  "content": "920b7d72-eb66-4c89-a9f0-df3d1cdc3ef6_Mau6.pdf",
+  "messageType": "file",
+  "mediaUrl": "https://localhost:7098/uploads/920b7d72-eb66-4c89-a9f0-df3d1cdc3ef6_Mau6.pdf",
+  "sentAt": {
+    "$date": "2024-11-03T12:12:13.678Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "672768e5b050f597592c676d"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "08bef30f-a3f3-4c2c-a5db-b4409aa5365d_ThoiKhoaBieu.pdf",
+  "messageType": "file",
+  "mediaUrl": "https://localhost:7098/uploads/08bef30f-a3f3-4c2c-a5db-b4409aa5365d_ThoiKhoaBieu.pdf",
+  "sentAt": {
+    "$date": "2024-11-03T12:13:25.016Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6727690fb050f597592c6787"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "06f0ea7c-54bc-4252-b2dd-e6aa60d5393f_0f25804f-aa29-4436-94d9-a5da8d5436b1.jpg",
+  "messageType": "image",
+  "mediaUrl": "https://localhost:7098/uploads/06f0ea7c-54bc-4252-b2dd-e6aa60d5393f_0f25804f-aa29-4436-94d9-a5da8d5436b1.jpg",
+  "sentAt": {
+    "$date": "2024-11-03T12:14:07.523Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "67276992b050f597592c67a1"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Bwhckog9TQ+Pq26r/UoB8w==",
+      "subType": "04"
+    }
+  },
+  "content": "67b79217-116a-4442-974c-bf2d16e5bee5_0f25804f-aa29-4436-94d9-a5da8d5436b1.jpg",
+  "messageType": "image",
+  "mediaUrl": "https://localhost:7098/uploads/67b79217-116a-4442-974c-bf2d16e5bee5_0f25804f-aa29-4436-94d9-a5da8d5436b1.jpg",
+  "sentAt": {
+    "$date": "2024-11-03T12:16:18.157Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "672778075f52c67a8ea71192"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "xin chào",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T13:17:59.136Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T13:17:59.136Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "672779085f52c67a8ea711c6"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "Bwhckog9TQ+Pq26r/UoB8w==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "trời ơi",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T13:22:16.821Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T13:22:16.821Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6727792c5f52c67a8ea711eb"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "Bwhckog9TQ+Pq26r/UoB8w==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "cũng ok",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T13:22:52.374Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T13:22:52.374Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "672779315f52c67a8ea71210"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "Bwhckog9TQ+Pq26r/UoB8w==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "😘😘😘😘",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-03T13:22:57.147Z"
+  },
+  "readAt": {
+    "$date": "2024-11-03T13:22:57.147Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6727796a5f52c67a8ea71235"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Bwhckog9TQ+Pq26r/UoB8w==",
+      "subType": "04"
+    }
+  },
+  "content": "f4eb347e-6f25-4ee3-a8d6-d5ca4ea8b8bc_Screenshot 2024-08-06 220146.png",
+  "messageType": "image",
+  "mediaUrl": "https://localhost:7098/uploads/f4eb347e-6f25-4ee3-a8d6-d5ca4ea8b8bc_Screenshot 2024-08-06 220146.png",
+  "sentAt": {
+    "$date": "2024-11-03T13:23:54.624Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6727799e5f52c67a8ea7124e"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Bwhckog9TQ+Pq26r/UoB8w==",
+      "subType": "04"
+    }
+  },
+  "content": "34dab9dc-facf-44f9-ad6b-7c9c5299db21_Screenshot 2024-08-06 220146.png",
+  "messageType": "image",
+  "mediaUrl": "https://localhost:7098/uploads/34dab9dc-facf-44f9-ad6b-7c9c5299db21_Screenshot 2024-08-06 220146.png",
+  "sentAt": {
+    "$date": "2024-11-03T13:24:46.445Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6727799f5f52c67a8ea71267"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Bwhckog9TQ+Pq26r/UoB8w==",
+      "subType": "04"
+    }
+  },
+  "content": "5082e100-1e74-4c0f-957b-4e7d064f8389_Screenshot 2024-08-06 220146.png",
+  "messageType": "image",
+  "mediaUrl": "https://localhost:7098/uploads/5082e100-1e74-4c0f-957b-4e7d064f8389_Screenshot 2024-08-06 220146.png",
+  "sentAt": {
+    "$date": "2024-11-03T13:24:47.724Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "672779d65f52c67a8ea71280"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Bwhckog9TQ+Pq26r/UoB8w==",
+      "subType": "04"
+    }
+  },
+  "content": "3cfef8cb-322e-49e3-8bc4-dbebbf398592_Screenshot 2024-07-17 103846.png",
+  "messageType": "image",
+  "mediaUrl": "https://localhost:7098/uploads/3cfef8cb-322e-49e3-8bc4-dbebbf398592_Screenshot 2024-07-17 103846.png",
+  "sentAt": {
+    "$date": "2024-11-03T13:25:42.268Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "672779f55f52c67a8ea71299"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Bwhckog9TQ+Pq26r/UoB8w==",
+      "subType": "04"
+    }
+  },
+  "content": "faed60d1-52ae-4f21-a7ac-b3954ed54424_Screenshot 2024-07-17 103846.png",
+  "messageType": "image",
+  "mediaUrl": "https://localhost:7098/uploads/faed60d1-52ae-4f21-a7ac-b3954ed54424_Screenshot 2024-07-17 103846.png",
+  "sentAt": {
+    "$date": "2024-11-03T13:26:13.156Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "67277a105f52c67a8ea712b2"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Bwhckog9TQ+Pq26r/UoB8w==",
+      "subType": "04"
+    }
+  },
+  "content": "99c59570-690b-4580-a493-729b8c8686b0_Screenshot 2024-07-17 103846.png",
+  "messageType": "image",
+  "mediaUrl": "https://localhost:7098/uploads/99c59570-690b-4580-a493-729b8c8686b0_Screenshot 2024-07-17 103846.png",
+  "sentAt": {
+    "$date": "2024-11-03T13:26:40.165Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "67277aa06c646863a7de152d"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Bwhckog9TQ+Pq26r/UoB8w==",
+      "subType": "04"
+    }
+  },
+  "content": "",
+  "messageType": "file",
+  "mediaUrl": "https://localhost:7098/uploads/0a003042-f2e7-4459-b146-ec6464693f51_TKB.pdf",
+  "sentAt": {
+    "$date": "2024-11-03T13:29:04.857Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "67277add6c646863a7de1553"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "",
+  "messageType": "file",
+  "mediaUrl": "https://localhost:7098/uploads/e5f7ebbe-164c-4942-b68d-5d0a2134ab9c_chrome_proxy.exe",
+  "sentAt": {
+    "$date": "2024-11-03T13:30:05.332Z"
+  },
+  "readAt": null,
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "672bf46e707ec2771ebe61a7"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "hello",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-06T22:57:50.063Z"
+  },
+  "readAt": {
+    "$date": "2024-11-06T22:57:50.063Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "672bfce5f822b69d9301a6c0"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "Bwhckog9TQ+Pq26r/UoB8w==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "hello",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-06T23:33:57.856Z"
+  },
+  "readAt": {
+    "$date": "2024-11-06T23:33:57.856Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "672bfcedf822b69d9301a6e5"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "Bwhckog9TQ+Pq26r/UoB8w==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "hmm",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-06T23:34:05.528Z"
+  },
+  "readAt": {
+    "$date": "2024-11-06T23:34:05.528Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "67341dbc335dba9e24db5260"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Lmx7qLXbRNyw3Izsb2qBZQ==",
+      "subType": "04"
+    }
+  },
+  "content": "xin chao",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-13T03:32:12.797Z"
+  },
+  "readAt": {
+    "$date": "2024-11-13T03:32:12.797Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "673420ec335dba9e24db52fb"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Bwhckog9TQ+Pq26r/UoB8w==",
+      "subType": "04"
+    }
+  },
+  "content": "hello",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-13T03:45:48.926Z"
+  },
+  "readAt": {
+    "$date": "2024-11-13T03:45:48.926Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "67342132335dba9e24db5333"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Bwhckog9TQ+Pq26r/UoB8w==",
+      "subType": "04"
+    }
+  },
+  "content": "a",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-13T03:46:58.858Z"
+  },
+  "readAt": {
+    "$date": "2024-11-13T03:46:58.858Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "67342178335dba9e24db535d"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Bwhckog9TQ+Pq26r/UoB8w==",
+      "subType": "04"
+    }
+  },
+  "content": "xin chao",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-13T03:48:08.136Z"
+  },
+  "readAt": {
+    "$date": "2024-11-13T03:48:08.136Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "673421c0335dba9e24db53a1"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "Bwhckog9TQ+Pq26r/UoB8w==",
+      "subType": "04"
+    }
+  },
+  "content": "a",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-13T03:49:20.101Z"
+  },
+  "readAt": {
+    "$date": "2024-11-13T03:49:20.101Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+},
+{
+  "_id": {
+    "$oid": "6735700eff488790f418232f"
+  },
+  "senderId": {
+    "$binary": {
+      "base64": "Bwhckog9TQ+Pq26r/UoB8w==",
+      "subType": "04"
+    }
+  },
+  "receiverId": {
+    "$binary": {
+      "base64": "1B/It1ibS0ONr2Ax6NbWCA==",
+      "subType": "04"
+    }
+  },
+  "content": "xin chao",
+  "messageType": "text",
+  "mediaUrl": "",
+  "sentAt": {
+    "$date": "2024-11-14T03:35:42.766Z"
+  },
+  "readAt": {
+    "$date": "2024-11-14T03:35:42.766Z"
+  },
+  "status": "sent",
+  "isGroupMessage": false
+}]
