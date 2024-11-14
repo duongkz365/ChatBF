@@ -13,7 +13,7 @@ import { useState } from "react";
 import { Navigate } from "react-router-dom";
 
 import { HubConnectionBuilder } from "@microsoft/signalr";
-import { sendValueVideoCall } from "../../redux/control/actions";
+import { selectedMessage, sendStreamVideoCall, sendValueVideoCall } from "../../redux/control/actions";
 
 import { useSignalR } from "../../routes/SignalRContext";
 const Index = () => {
@@ -35,8 +35,12 @@ const Index = () => {
 
   const userId = useSelector((state) => state.Profile?.profile)?.userId;
 
-  console.log("id: ", userId);
   const { sendUserId, onEvent } = useSignalR();
+
+
+  useEffect(()=> {
+      localStorage.setItem("userId", userId)
+  },[userId])
 
   useEffect(() => {
     onEvent("ReceiveMessage", (msg) => {
@@ -86,6 +90,43 @@ const Index = () => {
       if (onEvent) onEvent("CancelCall", () => {});
     };
   }, [onEvent]);
+
+useEffect(() => {
+  onEvent("StreamStartVideoCall", (message) => {
+      console.log("Dữ liệu trước khi dispatch:", message);  // Log dữ liệu gửi đi
+      if (userId && message && message.receiver.userId === userId) {
+          localStorage.setItem("stream", JSON.stringify(message));
+          localStorage.setItem("type","receiver")
+          window.location.href = "/call-pending";
+          
+      }
+  });
+}, [onEvent, dispatch, userId]);
+
+
+useEffect(() => {
+  onEvent("AcceptVideoCall", (message) => {
+      console.log("Dữ liệu trước khi dispatch:", message);  // Log dữ liệu gửi đi
+      if (userId && message && message.caller.userId === userId) {
+          localStorage.setItem("stream", JSON.stringify(message));
+          localStorage.setItem("type","caller")
+          window.location.href = "/video-call-stream?type=one-on-one";    
+      }
+  });
+}, [onEvent, dispatch, userId]);
+
+
+useEffect(() => {
+  onEvent("RefuseVideoCall", (message) => {
+      if (userId && message && message.caller.userId === userId) {
+          localStorage.setItem("stream", "");
+          localStorage.setItem("type","caller")
+          window.location.href = "/";    
+      }
+  });
+}, [onEvent, dispatch, userId]);
+
+
 
   useEffect(() => {
     if (userId) {

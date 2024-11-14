@@ -19,5 +19,14 @@ namespace ChatBE.Core.Interfaces
         Task<string> AcceptCall(VideoCallDTO call);
         Task<string> CancelCall(VideoCallDTO call);
         Task<string> EndCall(VideoCallDTO call);
+
+        // Stream Cloud
+        Task<string> StartVideoCall(StreamDTO stream);
+        Task<string> AcceptVideoCall(StreamDTO stream);
+        Task<string> RefuseVideoCall(StreamDTO stream);
+        Task<string> CancelVideoCall(StreamDTO stream);
+        Task<string> EndVideoCall(StreamDTO stream);
+
+
     }
 }
