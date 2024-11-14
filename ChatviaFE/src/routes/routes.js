@@ -1,6 +1,9 @@
 import React from "react";
 import { Navigate } from "react-router-dom";
-
+import Users from '../pages/Admin/Users';
+import Groups from '../pages/Admin/Groups';
+import Messages from '../pages/Admin/Messages';
+import AdminDashboard from '../pages/Admin/AdminDashboard';
 
 // lazy load all the views
 const Dashboard = React.lazy(() => import("../pages/dashboard/index"));
@@ -51,8 +54,12 @@ const publicRoutes = [
   { path: "/forget-password", component: <ForgetPassword /> },
   { path: "/register", component: <Register /> },
   { path: "/lock-screen", component: <LockScreen />},
-  { path: "/admin", component: <Admin />},
-  
+  // { path: "/admin", component: <Admin />},
 ];
-
-export { authProtectedRoutes, publicRoutes, callProtectedRoutes };
+const adminRoutes = [
+  { path: "/admin", component: <AdminDashboard /> },
+  { path: "/admin/users", component: <Users /> },
+  { path: "/admin/groups", component: <Groups /> },
+  { path: "/admin/messages", component: <Messages /> },
+]
+export { authProtectedRoutes, publicRoutes, callProtectedRoutes, adminRoutes };

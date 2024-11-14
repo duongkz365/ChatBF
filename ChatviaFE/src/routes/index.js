@@ -2,7 +2,7 @@ import React, { Suspense } from 'react';
 import { Routes as SwitchRoute, Route, Navigate } from 'react-router-dom';
 
 //import routes
-import { authProtectedRoutes, publicRoutes, callProtectedRoutes } from './routes';
+import { authProtectedRoutes, publicRoutes, callProtectedRoutes, adminRoutes } from './routes';
 
 //import layouts
 import NonAuthLayout from "../layouts/NonAuth";
@@ -52,8 +52,21 @@ const Routes = () => {
                             isAuthProtected={false} 
                         />
                     )}
-
                     {publicRoutes.map((route, idx) =>
+                        <Route 
+                            path={route.path} 
+                            layout={NonAuthLayout} 
+                            element={
+                                <NonAuthLayout>
+                                    {route.component}
+                                </NonAuthLayout>
+                            }
+                            key={idx} 
+                            isAuthProtected={false} 
+                        />
+                    )}
+
+                    {adminRoutes.map((route, idx) =>
                         <Route 
                             path={route.path} 
                             layout={NonAuthLayout} 
