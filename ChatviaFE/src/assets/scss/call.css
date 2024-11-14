@@ -1,0 +1,48 @@
+
+.video-chat-app {
+    height: 100vh;
+}
+
+
+#video-streams {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
+    height: 90vh;
+    width: 100%;
+}
+
+.video-container {
+    height: 100%;
+    border: 2px solid black;
+}
+.video-player {
+    height: 100%;
+    width: 100%;
+}
+
+#stream-controls {
+    position: absolute;
+    justify-content: center;
+    gap: 15px;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+}
+
+.btn-controls {
+    
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #976a1c;
+}
+
+#leave-btn {
+    background-color: #d82e2e;
+}
+
+/* #mic-btn, #camera-btn {
+    background: #976a1c;
+} */
+
+
