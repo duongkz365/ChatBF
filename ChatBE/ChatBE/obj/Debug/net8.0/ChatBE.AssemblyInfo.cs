@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChatBE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd768ee9bdbfdd92f523800f3c53214aeccda3d6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19fcc4db0040c2db705bab2d361eb2fc8cdbf1d5")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChatBE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChatBE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
