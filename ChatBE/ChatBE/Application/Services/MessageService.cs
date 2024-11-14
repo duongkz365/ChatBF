@@ -253,6 +253,76 @@ namespace ChatBE.Application.Services
         }
 
 
+        public async Task<string> StartVideoCall(StreamDTO stream)
+        {
+            var caller = await _userRepository.GetByIdAsync(stream.Caller);
+            var receiver = await _userRepository.GetByIdAsync(stream.Receiver);
+            var obj = new
+            {
+                stream.RoomId,
+                caller,
+                receiver,
+            };
+            await _hubContext.Clients.All.SendAsync("StreamStartVideoCall", obj);
+            return "ok";
+        }
+
+        public async Task<string> AcceptVideoCall (StreamDTO stream)
+        {
+            var caller = await _userRepository.GetByIdAsync(stream.Caller);
+            var receiver = await _userRepository.GetByIdAsync(stream.Receiver);
+            var obj = new
+            {
+                stream.RoomId,
+                caller,
+                receiver,
+            };
+            await _hubContext.Clients.All.SendAsync("AcceptVideoCall", obj);
+            return "ok";
+        }
+
+        public async Task<string> RefuseVideoCall(StreamDTO stream)
+        {
+            var caller = await _userRepository.GetByIdAsync(stream.Caller);
+            var receiver = await _userRepository.GetByIdAsync(stream.Receiver);
+            var obj = new
+            {
+                stream.RoomId,
+                caller,
+                receiver,
+            };
+            await _hubContext.Clients.All.SendAsync("RefuseVideoCall", obj);
+            return "ok";
+        }
+
+        public async Task<string> CancelVideoCall(StreamDTO stream)
+        {
+            var caller = await _userRepository.GetByIdAsync(stream.Caller);
+            var receiver = await _userRepository.GetByIdAsync(stream.Receiver);
+            var obj = new
+            {
+                stream.RoomId,
+                caller,
+                receiver,
+            };
+            await _hubContext.Clients.All.SendAsync("CancelVideoCall", obj);
+            return "ok";
+        }
+
+        public async Task<string> EndVideoCall(StreamDTO stream)
+        {
+            var caller = await _userRepository.GetByIdAsync(stream.Caller);
+            var receiver = await _userRepository.GetByIdAsync(stream.Receiver);
+            var obj = new
+            {
+                stream.RoomId,
+                caller,
+                receiver,
+            };
+            await _hubContext.Clients.All.SendAsync("EndVideoCall", obj);
+            return "ok";
+        }
+
 
 
     }
