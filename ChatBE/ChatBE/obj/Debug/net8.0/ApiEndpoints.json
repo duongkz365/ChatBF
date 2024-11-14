@@ -191,6 +191,86 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ChatBE.WebAPI.Controllers.StreamController",
+    "Method": "AcceptVideoCall",
+    "RelativePath": "api/Stream/acceptvideocall",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stream",
+        "Type": "ChatBE.Application.DTOs.StreamDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChatBE.WebAPI.Controllers.StreamController",
+    "Method": "CancelVideoCall",
+    "RelativePath": "api/Stream/cancelvideocall",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stream",
+        "Type": "ChatBE.Application.DTOs.StreamDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChatBE.WebAPI.Controllers.StreamController",
+    "Method": "EndVideoCall",
+    "RelativePath": "api/Stream/endvideocall",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stream",
+        "Type": "ChatBE.Application.DTOs.StreamDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChatBE.WebAPI.Controllers.StreamController",
+    "Method": "RefuseVideoCall",
+    "RelativePath": "api/Stream/refusevideocall",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stream",
+        "Type": "ChatBE.Application.DTOs.StreamDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChatBE.WebAPI.Controllers.StreamController",
+    "Method": "StartVideoCall",
+    "RelativePath": "api/Stream/startvideocall",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stream",
+        "Type": "ChatBE.Application.DTOs.StreamDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "UserController",
     "Method": "GetProfile",
     "RelativePath": "api/User",

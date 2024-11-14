@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import {
   Dropdown,
   DropdownMenu,
@@ -31,6 +31,8 @@ const UserHead = (props) => {
   const toggle1 = () => setDropdownOpen1(!dropdownOpen1);
   const toggleCallModal = () => setCallModal(!Callmodal);
   const toggleVideoModal = () => setVideoModal(!Videomodal);
+
+  const timeoutRef = useRef(null);
 
   const [isCalling, setIsCalling] = useState(false)
 
@@ -94,6 +96,15 @@ const UserHead = (props) => {
     }
   }
 
+
+  const handleRoomIdGenerate = () => {
+    const randomId = Math.random().toString(36).substring(2, 9);
+    const timestamp = Date.now().toString().substring(-4);
+    return randomId + timestamp;
+  };
+
+  const roomId = handleRoomIdGenerate();
+
   const startVideoCall = async () => {
     setIsCalling(true)
     if (otherUser) {
@@ -101,16 +112,57 @@ const UserHead = (props) => {
       const token = await getToken(channel) + "";
       const caller = userId + "";
       const receiver = otherUser.userId + "";
-
       // Gửi yêu cầu POST
-      fetch("https://localhost:7098/api/Agora", {
+
+
+      fetch("https://localhost:7098/api/Stream/startvideocall", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          token: token,
-          channel: channel,
+          roomId: roomId,
+          caller: caller,
+          receiver: receiver,
+        }),
+      })
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          return response.json();
+        })
+        .then((data) => {
+          console.log("Success:", data);
+        })
+        .catch((error) => {
+          console.error("Error:", error);
+        });
+     timeoutRef.current =  setTimeout(() => {
+        
+        if(window.location.href !== 'http://localhost:3000/video-call'){
+            console.log(window.location.href);
+            window.location.href = "/";
+        }
+      }, 30 * 1000);
+    }
+  };
+
+  const handleCancelCall = async ()=> {
+    toggleVideoModal();
+
+    if(isCalling){
+
+      const caller = userId + "";
+      const receiver = otherUser.userId + "";
+
+      fetch("https://localhost:7098/api/Stream/cancelvideocall", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          roomId: roomId,
           caller: caller,
           receiver: receiver,
         }),
@@ -128,20 +180,13 @@ const UserHead = (props) => {
           console.error("Error:", error);
         });
 
-      // fetch redux
-      dispatch(
-        sendValueVideoCall(channel, token, userId, otherUser.userId)
-      );
-
-      setTimeout(() => {
-        
-        if(window.location.href !== 'http://localhost:3000/video-call'){
-            console.log(window.location.href);
-            window.location.href = "/";
+        if (timeoutRef.current) {
+          clearTimeout(timeoutRef.current); // Hủy setTimeout
+          timeoutRef.current = null; // Đặt về null để tránh gọi lại
         }
-      }, 30 * 1000);
     }
-  };
+
+  }
 
   return (
     <React.Fragment>
@@ -379,7 +424,7 @@ const UserHead = (props) => {
                     type="button"
                     className="btn btn-danger avatar-sm rounded-circle"
                     onClick={() => {
-                      toggleVideoModal();
+                      handleCancelCall();
                     }}
                   >
                     <span className="avatar-title bg-transparent font-size-20">
