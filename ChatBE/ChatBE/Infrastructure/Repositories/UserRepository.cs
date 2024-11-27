@@ -72,6 +72,17 @@ public class UserRepository : IUserRepository
     {
         return await _context.Users.Find(u => userIds.Contains(u.UserId)).ToListAsync();
     }
+    public async Task DeleteAsync(Guid userId)
+    {
+        // Use Guid directly for deletion
+        await _context.Users.DeleteOneAsync(user => user.UserId == userId);
+    }
+    public async Task<int> GetUserCountAsync()
+    {
+        var count = await _context.Users.CountDocumentsAsync(Builders<User>.Filter.Empty);
+        return (int)count;  // Return count as int
+    }
 
 
+   
 }

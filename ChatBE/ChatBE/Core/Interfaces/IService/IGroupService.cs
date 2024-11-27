@@ -11,5 +11,6 @@ namespace ChatBE.Core.Interfaces.IService
         Task<string> RemoveUserFromGroup(ActionGroupDTO action);
         Task<string> RenameGroup(ActionGroupDTO action);
         Task<string> DeleteGroup(ActionGroupDTO action);
+        
     }
 }

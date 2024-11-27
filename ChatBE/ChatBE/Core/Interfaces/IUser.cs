@@ -15,4 +15,6 @@ public interface IUserRepository
     Task<User> GetByCredentialsAsync(string userName, string passwordHash);
     Task<User> GetByCredentialEmailAsync(string email, string passwordHash);
     Task<List<User>> GetUsers(List<Guid> userIds);
+    Task DeleteAsync(Guid userId);
+    Task<int> GetUserCountAsync();  // Add this method to get user count
 }

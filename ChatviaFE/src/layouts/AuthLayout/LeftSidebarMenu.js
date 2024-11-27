@@ -3,83 +3,60 @@ import { Link } from "react-router-dom";
 import { Nav, NavItem, NavLink, UncontrolledTooltip, Dropdown, DropdownItem, DropdownToggle, DropdownMenu } from "reactstrap";
 import classnames from "classnames";
 import { connect, useDispatch, useSelector } from "react-redux";
-
+import { useNavigate } from "react-router-dom"; // Import useNavigate
 import { setActiveTab, changeLayoutMode } from "../../redux/actions";
 
-//Import Images
-import logo from "../../assets/images/logo.svg"
+// Import Images
+import logo from "../../assets/images/logo.svg";
 import avatar1 from "../../assets/images/users/avatar-1.jpg";
 
-//i18n
+// i18n
 import i18n from '../../i18n';
 
-// falgs
+// Flags
 import usFlag from "../../assets/images/flags/us.jpg";
 import spain from "../../assets/images/flags/spain.jpg";
 import germany from "../../assets/images/flags/germany.jpg";
 import italy from "../../assets/images/flags/italy.jpg";
 import russia from "../../assets/images/flags/russia.jpg";
-import { createSelector } from 'reselect';
 
-function LeftSidebarMenu(props) {
+function LeftSidebarMenu({ activeTab, setActiveTab }) {
     const dispatch = useDispatch();
-
-    const selectLayoutProperties = createSelector(
-        (state) => state.Layout,
-        (layout) => ({
-          layoutMode: layout.layoutMode,
-        })
-      );
-      
-      const { layoutMode } = useSelector(selectLayoutProperties);
-
-    const mode =
-        layoutMode === "dark"
-            ? "light"
-            : "dark";
-
-    const onChangeLayoutMode = (value) => {
-        if (changeLayoutMode) {
-            dispatch(changeLayoutMode(value));
-        }
-    }
-
+    const navigate = useNavigate();
+    
+    const profileState = useSelector((state) => state.Profile.profile);
+    const layoutMode = useSelector((state) => state.Layout.layoutMode);
     const [dropdownOpen, setDropdownOpen] = useState(false);
     const [dropdownOpen2, setDropdownOpen2] = useState(false);
     const [dropdownOpenMobile, setDropdownOpenMobile] = useState(false);
-    const [lng, setlng] = useState("English");
+    const [lng, setLng] = useState("English");
 
+    const mode = layoutMode === "dark" ? "light" : "dark";
 
     const toggle = () => setDropdownOpen(!dropdownOpen);
     const toggle2 = () => setDropdownOpen2(!dropdownOpen2);
     const toggleMobile = () => setDropdownOpenMobile(!dropdownOpenMobile);
 
-    const toggleTab = tab => {
-        props.setActiveTab(tab)
-    }
+    const onChangeLayoutMode = (value) => {
+        dispatch(changeLayoutMode(value));
+    };
 
-    const activeTab = props.activeTab;
+    const changeLanguageAction = (language) => {
+        i18n.changeLanguage(language);
+        const languageMap = {
+            sp: "Spanish",
+            gr: "German",
+            rs: "Russian",
+            it: "Italian",
+            eng: "English",
+        };
+        setLng(languageMap[language] || "English");
+    };
 
-    /* changes language according to clicked language menu item */
-    const changeLanguageAction = (lng) => {
+    const toggleTab = (tab) => {
+        setActiveTab(tab);
+    };
 
-        /* set the selected language to i18n */
-        i18n.changeLanguage(lng);
-
-        if (lng === "sp")
-            setlng("Spanish");
-        else if (lng === "gr")
-            setlng("German");
-        else if (lng === "rs")
-            setlng("Russian");
-        else if (lng === "it")
-            setlng("Italian");
-        else if (lng === "eng")
-            setlng("English");
-    }
-
-
-    const profileState = useSelector((state)=>state.Profile.profile)
     return (
         <React.Fragment>
             <div className="side-menu flex-lg-column me-lg-1">
@@ -97,66 +74,92 @@ function LeftSidebarMenu(props) {
                         </span>
                     </Link>
                 </div>
-                {/* end navbar-brand-box  */}
+                {/* End navbar-brand-box */}
 
                 {/* Start side-menu nav */}
                 <div className="flex-lg-column my-auto">
                     <Nav className="side-menu-nav nav-pills justify-content-center" role="tablist">
                         <NavItem id="profile">
-                            <NavLink id="pills-user-tab" className={classnames({ active: activeTab === 'profile' }) + " mb-2"} onClick={() => { toggleTab('profile'); }}>
+                            <NavLink
+                                id="pills-user-tab"
+                                className={classnames({ active: activeTab === 'profile' }) + " mb-2"}
+                                onClick={() => toggleTab('profile')}
+                            >
                                 <i className="ri-user-2-line"></i>
                             </NavLink>
                         </NavItem>
                         <UncontrolledTooltip target="profile" placement="top">
                             Profile
                         </UncontrolledTooltip>
+
                         <NavItem id="Chats">
-                            <NavLink id="pills-chat-tab" className={classnames({ active: activeTab === 'chat' }) + " mb-2"} onClick={() => { toggleTab('chat'); }}>
+                            <NavLink
+                                id="pills-chat-tab"
+                                className={classnames({ active: activeTab === 'chat' }) + " mb-2"}
+                                onClick={() => toggleTab('chat')}
+                            >
                                 <i className="ri-message-3-line"></i>
                             </NavLink>
                         </NavItem>
                         <UncontrolledTooltip target="Chats" placement="top">
                             Chats
                         </UncontrolledTooltip>
+
                         <NavItem id="Groups">
-                            <NavLink id="pills-groups-tab" className={classnames({ active: activeTab === 'group' }) + " mb-2"} onClick={() => { toggleTab('group'); }}>
+                            <NavLink
+                                id="pills-groups-tab"
+                                className={classnames({ active: activeTab === 'group' }) + " mb-2"}
+                                onClick={() => toggleTab('group')}
+                            >
                                 <i className="ri-group-line"></i>
                             </NavLink>
                         </NavItem>
                         <UncontrolledTooltip target="Groups" placement="top">
                             Groups
                         </UncontrolledTooltip>
+
                         <NavItem id="Contacts">
-                            <NavLink id="pills-contacts-tab" className={classnames({ active: activeTab === 'contacts' }) + " mb-2"} onClick={() => { toggleTab('contacts'); }}>
+                            <NavLink
+                                id="pills-contacts-tab"
+                                className={classnames({ active: activeTab === 'contacts' }) + " mb-2"}
+                                onClick={() => toggleTab('contacts')}
+                            >
                                 <i className="ri-contacts-line"></i>
                             </NavLink>
                         </NavItem>
                         <UncontrolledTooltip target="Contacts" placement="top">
                             Contacts
                         </UncontrolledTooltip>
+
                         <NavItem id="Settings">
-                            <NavLink id="pills-setting-tab" className={classnames({ active: activeTab === 'settings' })} onClick={() => { toggleTab('settings'); }}>
+                            <NavLink
+                                id="pills-setting-tab"
+                                className={classnames({ active: activeTab === 'settings' })}
+                                onClick={() => toggleTab('settings')}
+                            >
                                 <i className="ri-settings-2-line"></i>
                             </NavLink>
                         </NavItem>
                         <UncontrolledTooltip target="Settings" placement="top">
                             Settings
                         </UncontrolledTooltip>
+
                         <Dropdown nav isOpen={dropdownOpenMobile} toggle={toggleMobile} className="profile-user-dropdown d-inline-block d-lg-none dropup">
                             <DropdownToggle nav>
                                 <img src={avatar1} alt="chatvia" className="profile-user rounded-circle" />
                             </DropdownToggle>
                             <DropdownMenu className="dropdown-menu-end">
-                                <DropdownItem onClick={() => { toggleTab('profile'); }}>Profile <i className="ri-profile-line float-end text-muted"></i></DropdownItem>
-                                <DropdownItem onClick={() => { toggleTab('settings'); }}>Setting <i className="ri-settings-3-line float-end text-muted"></i></DropdownItem>
+                                <DropdownItem onClick={() => toggleTab('profile')}>Profile</DropdownItem>
+                                <DropdownItem onClick={() => toggleTab('settings')}>Setting</DropdownItem>
                                 <DropdownItem divider />
-                                <DropdownItem href="/logout">Log out <i className="ri-logout-circle-r-line float-end text-muted"></i></DropdownItem>
+                                <DropdownItem href="/logout">Log out</DropdownItem>
                             </DropdownMenu>
                         </Dropdown>
                     </Nav>
                 </div>
                 {/* end side-menu nav */}
 
+                {/* Language and mode toggler */}
                 <div className="flex-lg-column d-none d-lg-block">
                     <Nav className="side-menu-nav justify-content-center">
                         <Dropdown nav isOpen={dropdownOpen2} className="btn-group dropup profile-user-dropdown" toggle={toggle2}>
@@ -185,39 +188,37 @@ function LeftSidebarMenu(props) {
                                 </DropdownItem>
                             </DropdownMenu>
                         </Dropdown>
+
                         <li className="nav-item">
-                            <NavLink id="light-dark" className='mb-2' onClick={() => onChangeLayoutMode(mode)}>
+                            <NavLink id="light-dark" className="mb-2" onClick={() => onChangeLayoutMode(mode)}>
                                 <i className="ri-sun-line theme-mode-icon"></i>
                             </NavLink>
                             <UncontrolledTooltip target="light-dark" placement="right">
                                 Dark / Light Mode
                             </UncontrolledTooltip>
                         </li>
+
                         <Dropdown nav isOpen={dropdownOpen} className="nav-item btn-group dropup profile-user-dropdown" toggle={toggle}>
                             <DropdownToggle className="nav-link mb-2" tag="a">
                                 <img src={profileState?.avatarUrl} alt="" className="profile-user rounded-circle" />
                             </DropdownToggle>
                             <DropdownMenu>
-                                <DropdownItem onClick={() => { toggleTab('profile'); }}>Profile <i className="ri-profile-line float-end text-muted"></i></DropdownItem>
-                                <DropdownItem onClick={() => { toggleTab('settings'); }}>Setting <i className="ri-settings-3-line float-end text-muted"></i></DropdownItem>
+                                
+                                {profileState?.permission === 'admin' && (
+                                    <DropdownItem onClick={() => navigate('/admin')}>Admin <i className="ri-admin-line float-end text-muted"></i></DropdownItem >
+                                )}
                                 <DropdownItem divider />
-                                <DropdownItem href="/logout">Log out <i className="ri-logout-circle-r-line float-end text-muted"></i></DropdownItem>
+                                <DropdownItem href="/logout">Log out  <i className="ri-logout-box-line float-end text-muted"></i></DropdownItem>
                             </DropdownMenu>
                         </Dropdown>
                     </Nav>
                 </div>
-                {/* Side menu user */}
+                {/* End Language and mode toggler */}
             </div>
         </React.Fragment>
     );
 }
 
-const mapStatetoProps = state => {
-    return {
-        ...state.Layout
-    };
-};
-
-export default connect(mapStatetoProps, {
-    setActiveTab
-})(LeftSidebarMenu);
+export default connect((state) => ({
+    activeTab: state.Layout.activeTab
+}), { setActiveTab })(LeftSidebarMenu);

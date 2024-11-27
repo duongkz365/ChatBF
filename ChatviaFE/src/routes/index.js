@@ -71,9 +71,11 @@ const Routes = () => {
                             path={route.path} 
                             layout={NonAuthLayout} 
                             element={
+                                <AuthProtected isAuthProtected={true}>
                                 <NonAuthLayout>
                                     {route.component}
                                 </NonAuthLayout>
+                                </AuthProtected>
                             }
                             key={idx} 
                             isAuthProtected={false} 

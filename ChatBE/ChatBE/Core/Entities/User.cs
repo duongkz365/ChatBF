@@ -5,6 +5,8 @@ namespace ChatBE.Core.Entities
 {
     public class User
     {
+        internal bool isActive;
+
         [BsonId]
         public ObjectId Id { get; set; } = ObjectId.GenerateNewId();
 

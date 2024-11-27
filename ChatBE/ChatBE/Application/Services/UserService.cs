@@ -179,4 +179,68 @@ public class UserService : IUserService
             return "FAIL";
         }
     }
+    public async Task<bool> SetUserActiveStatusAsync(Guid userId, bool isActive)
+    {
+        var user = await _userRepository.GetByIdAsync(userId);
+        if (user == null) return false;
+
+        user.IsActive = isActive;
+        try
+        {
+            await _userRepository.UpdateAsync(user);
+            return true;
+        }
+        catch
+        {
+            return false;
+        }
+    }
+    public async Task<bool> DeleteUserByIdAsync(Guid userId)
+    {
+        var user = await _userRepository.GetByIdAsync(userId);
+        if (user == null)
+        {
+            return false;
+        }
+        try
+        {
+            // Now passing Guid to the DeleteAsync method
+            await _userRepository.DeleteAsync(userId);
+            return true;
+        }
+        catch
+        {
+            return false;
+        }
+    }
+    public async Task<string> UpdateUserAsync(User user)
+    {
+        try
+        {
+            // Update the user in the database
+            var existingUser = await _userRepository.GetByIdAsync(user.UserId);
+            if (existingUser == null)
+            {
+                return "FAIL";  // User not found
+            }
+
+            // Update fields (add any logic to update specific fields)
+            existingUser.UserName = user.UserName;
+            existingUser.PasswordHash = user.PasswordHash;
+            existingUser.FullName = user.FullName;
+            // Add other fields as necessary
+
+            await _userRepository.UpdateAsync(existingUser);
+            return "SUCCESS";
+        }
+        catch
+        {
+            return "FAIL";  // Handle any errors during update
+        }
+    
+}
+    public async Task<int> GetUserCountAsync()
+    {
+        return await _userRepository.GetUserCountAsync();
+    }
 }

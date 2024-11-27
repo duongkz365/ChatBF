@@ -30,5 +30,6 @@ namespace ChatBE.Core.Entities
         [BsonElement("updatedAt")]
 
         public DateTime UpdatedAt { get; set; }
+        public string Status { get; internal set; }
     }
 }

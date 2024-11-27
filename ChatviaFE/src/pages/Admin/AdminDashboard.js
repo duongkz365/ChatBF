@@ -1,4 +1,3 @@
-// src/pages/admin/AdminDashboard.js
 import React, { useState, useEffect } from 'react';
 import Header from '../../components/Header';
 import Sidebar from '../../components/Sidebar';
@@ -10,10 +9,21 @@ const AdminDashboard = () => {
   const [recentMessages, setRecentMessages] = useState([]); // Tin nhắn gần đây
   const [onlineUsers, setOnlineUsers] = useState([]); // Người dùng trực tuyến
 
-  // useEffect giả lập lấy dữ liệu từ API
+  // Fetch user count from the API
+  const fetchUserCount = async () => {
+    try {
+      const response = await fetch('https://localhost:7098/api/Admin/count'); // API endpoint for getting user count
+      const data = await response.json();
+      setUserCount(data.count); // Update user count from the API response
+    } catch (error) {
+      console.error('Error fetching user count:', error);
+    }
+  };
+
   useEffect(() => {
-    // Giả lập dữ liệu từ API
-    setUserCount(120);
+    fetchUserCount(); // Fetch user count when the component mounts
+
+    // Fake data for other counts (this can be replaced with real API calls)
     setGroupCount(10);
     setMessageCount(300);
     setRecentMessages([
@@ -71,25 +81,25 @@ const AdminDashboard = () => {
               </div>
             </div>
 
-            {/* Danh Sách Tin Nhắn Gần Đây */}
+            {/* Danh Sách Tin Nhắn Gần Đây
             <div className="row">
               <div className="col-md-6 mb-4">
                 <div className="card shadow">
                   <div className="card-body">
                     <h5 className="card-title">Tin Nhắn Gần Đây</h5>
-                    <ul className="list-group list-group-flush">
-                      {recentMessages.map(message => (
+                    <ul className="list-group list-group-flush"> */}
+                      {/* {recentMessages.map(message => (
                         <li className="list-group-item" key={message.id}>
                           <strong>{message.sender}</strong>: {message.content} <span className="text-muted">({message.time})</span>
                         </li>
-                      ))}
-                    </ul>
-                  </div>
+                      ))} */}
+                    {/* </ul> */}
+                  {/* </div>
                 </div>
-              </div>
+              </div> */}
 
               {/* Danh Sách Người Dùng Trực Tuyến */}
-              <div className="col-md-6 mb-4">
+              {/* <div className="col-md-6 mb-4">
                 <div className="card shadow">
                   <div className="card-body">
                     <h5 className="card-title">Người Dùng Trực Tuyến</h5>
@@ -102,8 +112,8 @@ const AdminDashboard = () => {
                     </ul>
                   </div>
                 </div>
-              </div>
-            </div>
+              </div> */}
+            {/* </div> */}
           </div>
         </div>
       </div>

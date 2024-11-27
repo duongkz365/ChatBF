@@ -1,5 +1,5 @@
 
-const thead = ["Stt","Id","Name", "Status","Date", "Action"];
+const thead = ["Stt","Id","Name","Date", "Action"];
   const tbody = [
     {
       
@@ -28,7 +28,7 @@ const thead = ["Stt","Id","Name", "Status","Date", "Action"];
     },
     
   ];
-  const blockUser = ["Stt","Id","Name","Date", "Action"];
+  const blockUser = ["Stt","Id","Name","Status","Date", "Action"];
   const dbBlockUser = [
     {
       
