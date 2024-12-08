@@ -1,6 +1,7 @@
 ﻿using ChatBE.Application.DTOs.GroupDTO;
 using ChatBE.Core.Interfaces.IService;
 using Microsoft.AspNetCore.Mvc;
+using Org.BouncyCastle.Asn1.Ocsp;
 using System.Formats.Asn1;
 using System.Net.WebSockets;
 
@@ -20,9 +21,33 @@ namespace ChatBE.WebAPI.Controllers
 
         [HttpGet]
         public async Task<IActionResult> GetGroup()
+       {
+            var message = await _groupService.GetAllGroupAsync();
+            return Ok(message);
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetGroupById(Guid id)
         {
-            var token = Request.Headers["Authorization"].ToString().Replace("Bearer ", "");
-            return Ok(token);
+            var group = await _groupService.GetGroupByIdAsync(id);
+
+            if (group == null)
+            {
+                return NotFound(new { Message = "Group not found" });
+            }
+            return Ok(group);
+        }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateGroup(Guid id)
+        {
+            var group = await _groupService.GetGroupByIdAsync(id);
+
+            if (group == null)
+            {
+                return NotFound(new { Message = "Group not found" });
+            }
+            return Ok(group);
         }
 
         [HttpPost("create-group")]
@@ -32,12 +57,19 @@ namespace ChatBE.WebAPI.Controllers
             return  Ok(new {message});
         }
 
-        [HttpPut("add-user-to-group")]
-        public async Task<IActionResult> AddUserToGroup([FromBody] ActionGroupDTO action)
+        [HttpPut("{id}")]
+        public async Task<IActionResult> AddUserToGroup(Guid id, [FromBody] ActionGroupDTO action)
         {
+            if (id == Guid.Empty || action == null)
+            {
+                return BadRequest("Invalid request data.");
+            }
+
+            action.GroupId = id;
             var message = await _groupService.AddUserToGroup(action);
-            return Ok(new {message});
+            return Ok(new { message });
         }
+
         [HttpPut("remove-user-from-group")]
         public async Task<IActionResult> RemoveUserFromGroup([FromBody] ActionGroupDTO action)
         {
@@ -54,11 +86,15 @@ namespace ChatBE.WebAPI.Controllers
         }
 
         [HttpDelete("delete-group")]
-        public async Task<IActionResult> DeleteGroup([FromBody] ActionGroupDTO action)
+        public async Task<IActionResult> DeleteGroup([FromBody] GetGroupByName request)
         {
-            var message = await _groupService.DeleteGroup(action);
-            return Ok(new { message });
+            if (string.IsNullOrEmpty(request.GroupName))
+            {
+                return BadRequest(new { error = "The groupName field is required." });
+            }
 
+            var message = await _groupService.DeleteGroupName(request.GroupName);
+            return Ok(new { message });
         }
     }
 }

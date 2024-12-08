@@ -1,4 +1,5 @@
-﻿using ChatBE.Core.Entities;
+﻿using ChatBE.Application.DTOs.GroupDTO;
+using ChatBE.Core.Entities;
 
 namespace ChatBE.Core.Interfaces
 {
@@ -6,11 +7,13 @@ namespace ChatBE.Core.Interfaces
     {
         Task<IEnumerable<Group>> GetAllGroupsAsync();
         Task<Group> GetGroupByIdAsync(Guid groupId);
+        Task<Group> GetGroupByNameAsync(string name);
         Task<IEnumerable<Group>> GetGroupByUserIdAsync(Guid userId);
-        Task<string> AddMemberAsync(Guid groupId, Guid userId);
+        Task<string> AddMemberAsync(Guid groupId, List<Guid> memberIds); // Updated
         Task<string> RemoveMemberAsync(Guid groupId, Guid userId);
-        Task<string> RemoveGroupAsync(Guid groupId);
-        Task<string> AddGroupAsync(Group group);
+        Task RemoveGroupAsync(Guid groupId);
+        Task AddAsync(Group group);
+
 
     }
 }
