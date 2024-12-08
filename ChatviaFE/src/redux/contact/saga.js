@@ -159,7 +159,7 @@ function* deleteContacts({payload: {userId}}) {
 // Watcher Saga
 export function* watchFetchContacts() {
   yield all([
-   takeLatest(FETCH_CONTACT_REQUEST, fetchContacts),
+  takeLatest(FETCH_CONTACT_REQUEST, fetchContacts),
   takeLatest(INVITE_CONTACT_REQUEST, inviteContacts),
   takeLatest(ACCEPT_CONTACT_REQUEST, acceptContacts),
   takeLatest(CANCEL_CONTACT_REQUEST, cancelContacts),

@@ -1,241 +1,310 @@
-import React, { Component } from 'react';
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter, UncontrolledTooltip, Form, Label, Input, Collapse, CardHeader, CardBody, Alert, InputGroup, Card, Badge } from 'reactstrap';
-import { Link } from "react-router-dom";
-import { connect } from "react-redux";
-
-import { withTranslation } from 'react-i18next';
-
-//simple bar
+import React, { useEffect, useState } from "react";
+import { withTranslation } from "react-i18next";
+import { useDispatch, useSelector } from "react-redux";
+import {
+  Button,
+  Input,
+  InputGroup,
+  Label,
+  Modal,
+  ModalBody,
+  ModalFooter,
+  ModalHeader,
+} from "reactstrap";
 import SimpleBar from "simplebar-react";
-
-//components
 import SelectContact from "../../../components/SelectContact";
+import {
+  CreateGroupRequest,
+  fetchGroupRequest,
+  deleteGroupRequest,
+  // updateGroupRequest, // Import the update group action
+} from "../../../redux/groups/action";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
-//actions
-import { createGroup } from "../../../redux/actions";
+const Groups = ({ t }) => {
+  const dispatch = useDispatch();
+  const [modal, setModal] = useState(false); // Modal for creating a group
+  const [updateModal, setUpdateModal] = useState(false); // Modal for updating a group
+  const [selectedContact, setSelectedContact] = useState([]); // Selected members
+  const [groupName, setGroupName] = useState(""); // Group name
+  const [groupDesc, setGroupDesc] = useState(""); // Group description
+  const [selectedGroup, setSelectedGroup] = useState(null); // Selected group for editing
+  const groups = useSelector((state) => state.Group.group || []); // Groups from Redux
 
-class Groups extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            modal: false,
-            isOpenCollapse: false,
-            groups: this.props.groups,
-            selectedContact: [],
-            isOpenAlert: false,
-            message: "",
-            groupName: "",
-            groupDesc: ""
-        }
-        this.toggle = this.toggle.bind(this);
-        this.toggleCollapse = this.toggleCollapse.bind(this);
-        this.createGroup = this.createGroup.bind(this);
-        this.handleCheck = this.handleCheck.bind(this);
-        this.handleChangeGroupName = this.handleChangeGroupName.bind(this);
-        this.handleChangeGroupDesc = this.handleChangeGroupDesc.bind(this);
+  const toggle = () => setModal(!modal);
+  const toggleUpdateModal = () => setUpdateModal(!updateModal);
+
+  useEffect(() => {
+    dispatch(fetchGroupRequest());
+  }, [dispatch]);
+
+  const handleCheck = (e, contactId) => {
+    const newSelected = [...selectedContact];
+    if (e.target.checked) {
+      newSelected.push({ id: contactId, name: e.target.value });
+    } else {
+      const index = newSelected.findIndex((contact) => contact.id === contactId);
+      if (index !== -1) newSelected.splice(index, 1);
+    }
+    setSelectedContact(newSelected);
+  };
+
+  const createGroupHandler = async () => {
+    if (selectedContact.length < 1) {
+      toast.error("Minimum 1 member required!");
+      return;
     }
 
-    toggle() {
-        this.setState({ modal: !this.state.modal });
+    try {
+      const newGroup = {
+        groupId: groups.length + 1,
+        name: groupName,
+        desc: groupDesc,
+        members: selectedContact,
+      };
+
+      dispatch(CreateGroupRequest(newGroup));
+      toast.success("Group created successfully!");
+      toggle();
+    } catch (error) {
+      toast.error("Failed to create group!");
     }
+  };
 
-    toggleCollapse() {
-        this.setState({ isOpenCollapse: !this.state.isOpenCollapse });
-    }
+  const openUpdateModal = (group) => {
+    setSelectedGroup(group);
+    setSelectedContact(group.members || []); // Set existing members
+    setGroupName(group.name || "");
+    setGroupDesc(group.description || "");
+    toggleUpdateModal();
+  };
 
-    componentDidUpdate(prevProps) {
-        if (prevProps !== this.props) {
-            this.setState({
-                groups: this.props.groups
-            });
-        }
-    }
+  const updateGroupHandler = () => {
+    if (!selectedGroup) return;
 
-    createGroup() {
-        if (this.state.selectedContact.length > 2) {
-            // gourpId : 5, name : "#Project-aplha", profilePicture : "Null", isGroup : true, unRead : 0, isNew : true, desc : "project related Group",
-            var obj = {
-                gourpId: this.state.groups.length + 1,
-                name: "#" + this.state.groupName,
-                profilePicture: "Null",
-                isGroup: true,
-                unRead: 0,
-                isNew: true,
-                desc: this.state.groupDesc,
-                members: this.state.selectedContact
-            }
-            //call action for creating a group
-            this.props.createGroup(obj);
-            this.toggle();
+    // Avoid duplicate members
+    const updatedMembers = [
+      ...new Map(
+        [...selectedGroup.members, ...selectedContact].map((member) => [
+          member.id,
+          member,
+        ])
+      ).values(),
+    ];
 
-        } else if (this.state.selectedContact.length === 1) {
-            this.setState({ message: "Minimum 2 members required!!!", isOpenAlert: true });
-        } else {
-            this.setState({ message: "Please Select Members!!!", isOpenAlert: true });
-        }
-        setTimeout(
-            function () {
-                this.setState({ isOpenAlert: false });
-            }
-                .bind(this),
-            3000
-        );
-    }
+    const updatedGroup = {
+      ...selectedGroup,
+      name: groupName,
+      desc: groupDesc,
+      members: updatedMembers, // Updated members list
+    };
 
-    handleCheck(e, contactId) {
-        var selected = this.state.selectedContact;
-        var obj;
-        if (e.target.checked) {
-            obj = {
-                id: contactId,
-                name: e.target.value
-            };
-            selected.push(obj);
-            this.setState({ selectedContact: selected })
-        }
-    }
+    // Dispatch the update action
+    // dispatch(updateGroupRequest(updatedGroup));
+    toast.success("Group updated successfully!");
+    toggleUpdateModal();
+  };
 
-    handleChangeGroupName(e) {
-        this.setState({ groupName: e.target.value });
-    }
+  const isMemberSelected = (memberId) => {
+    return selectedContact.some((member) => member.id === memberId);
+  };
 
-    handleChangeGroupDesc(e) {
-        this.setState({ groupDesc: e.target.value });
-    }
+  return (
+    <React.Fragment>
+      <ToastContainer />
+      <style>
+        {`
+          .group-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px;
+            border: 1px solid #f1f1f1;
+            border-radius: 8px;
+            background: #fff;
+            margin-bottom: 12px;
+            transition: all 0.3s ease;
+          }
+          .group-item:hover {
+            background: #f9f9f9;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          }
+          .group-details {
+            display: flex;
+            align-items: center;
+          }
+          .group-icon {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            color: #fff;
+            background: #007bff;
+            border-radius: 50%;
+            margin-right: 12px;
+          }
+          .group-info h5 {
+            margin: 0;
+            font-size: 1rem;
+            font-weight: bold;
+          }
+          .group-info small {
+            display: block;
+            color: #6c757d;
+            margin-top: 4px;
+          }
+          .group-info p {
+            margin: 0;
+            margin-top: 6px;
+            font-size: 0.85rem;
+            color: #6c757d;
+          }
+        `}
+      </style>
+      {/* Header */}
+      <div className="p-4">
+        <div className="d-flex justify-content-between align-items-center">
+          <h4 className="mb-0">{t("Groups")}</h4>
+          <Button color="primary" onClick={toggle}>
+            <i className="ri-group-line me-2"></i> {t("Create Group")}
+          </Button>
+        </div>
 
-    render() {
-        const { t } = this.props;
-        return (
-            <React.Fragment>
-                <div>
-                    <div className="p-4">
-                        <div className="user-chat-nav float-end">
-                            <div id="create-group">
-                                {/* Button trigger modal */}
-                                <Button onClick={this.toggle} type="button" color="link" className="text-decoration-none text-muted font-size-18 py-0">
-                                    <i className="ri-group-line me-1"></i>
-                                </Button>
-                            </div>
-                            <UncontrolledTooltip target="create-group" placement="bottom">
-                                Create group
-                                    </UncontrolledTooltip>
+        {/* Search Box */}
+        <div className="search-box chat-search-box mt-3">
+          <InputGroup size="lg" className="bg-light rounded-lg">
+            <Button
+              color="link"
+              className="text-decoration-none text-muted pr-1"
+            >
+              <i className="ri-search-line search-icon font-size-18"></i>
+            </Button>
+            <Input
+              type="text"
+              className="form-control bg-light"
+              placeholder={t("Search groups...")}
+            />
+          </InputGroup>
+        </div>
+      </div>
 
-                        </div>
-                        <h4 className="mb-4">{t('Groups')}</h4>
-
-                        {/* Start add group Modal */}
-                        <Modal isOpen={this.state.modal} centered toggle={this.toggle}>
-                            <ModalHeader tag="h5" className="modal-title font-size-14" toggle={this.toggle}>{t('Create New Group')}</ModalHeader>
-                            <ModalBody className="p-4">
-                                <Form>
-                                    <div className="mb-4">
-                                        <Label className="form-label" htmlFor="addgroupname-input">{t('Group Name')}</Label>
-                                        <Input type="text" className="form-control" id="addgroupname-input" value={this.state.groupName} onChange={(e) => this.handleChangeGroupName(e)} placeholder="Enter Group Name" />
-                                    </div>
-                                    <div className="mb-4">
-                                        <Label className="form-label">{t('Group Members')}</Label>
-                                        <Alert isOpen={this.state.isOpenAlert} color="danger">
-                                            {this.state.message}
-                                        </Alert>
-                                        <div className="mb-3">
-                                            <Button color="light" size="sm" type="button" onClick={this.toggleCollapse}>
-                                                {t('Select Members')}
-                                            </Button>
-                                        </div>
-
-                                        <Collapse isOpen={this.state.isOpenCollapse} id="groupmembercollapse">
-                                            <Card className="border">
-                                                <CardHeader>
-                                                    <h5 className="font-size-15 mb-0">{t('Contacts')}</h5>
-                                                </CardHeader>
-                                                <CardBody className="p-2">
-                                                    <SimpleBar style={{ maxHeight: "150px" }}>
-                                                        {/* contacts */}
-                                                        <div id="addContacts">
-                                                            <SelectContact handleCheck={this.handleCheck} />
-                                                        </div>
-                                                    </SimpleBar>
-                                                </CardBody>
-                                            </Card>
-                                        </Collapse>
-                                    </div>
-                                    <div>
-                                        <Label className="form-label" htmlFor="addgroupdescription-input">Description</Label>
-                                        <textarea className="form-control" id="addgroupdescription-input" value={this.state.groupDesc} onChange={(e) => this.handleChangeGroupDesc(e)} rows="3" placeholder="Enter Description"></textarea>
-                                    </div>
-                                </Form>
-                            </ModalBody>
-                            <ModalFooter>
-                                <Button type="button" color="link" onClick={this.toggle}>{t('Close')}</Button>
-                                <Button type="button" color="primary" onClick={this.createGroup}>Create Group</Button>
-                            </ModalFooter>
-                        </Modal>
-                        {/* End add group Modal */}
-
-                        <div className="search-box chat-search-box">
-                            <InputGroup size="lg" className="bg-light rounded-lg">
-                                <Button color="link" className="text-decoration-none text-muted pr-1" type="button">
-                                    <i className="ri-search-line search-icon font-size-18"></i>
-                                </Button>
-                                <Input type="text" className="form-control bg-light" placeholder="Search groups..." />
-                            </InputGroup>
-                        </div>
-                        {/* end search-box */}
-                    </div>
-
-                    {/* Start chat-group-list */}
-                    <SimpleBar style={{ maxHeight: "100%" }} className="p-4 chat-message-list chat-group-list">
-
-
-                        <ul className="list-unstyled chat-list">
-                            {
-                                this.state.groups.map((group, key) =>
-                                    <li key={key} >
-                                        <Link to="#">
-                                            <div className="d-flex align-items-center">
-                                                <div className="chat-user-img me-3 ms-0">
-                                                    <div className="avatar-xs">
-                                                        <span className="avatar-title rounded-circle bg-primary-subtle text-primary">
-                                                            {group.name.charAt(1)}
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <div className="flex-grow-1 overflow-hidden">
-                                                    <h5 className="text-truncate font-size-14 mb-0">
-                                                        {group.name}
-                                                        {
-                                                            group.unRead !== 0
-                                                                ? <Badge color="none" pill className="badge-soft-danger float-end">
-                                                                    {
-                                                                        group.unRead >= 20 ? group.unRead + "+" : group.unRead
-                                                                    }
-                                                                </Badge>
-                                                                : null
-                                                        }
-
-                                                        {
-                                                            group.isNew && <Badge color="none" pill className="badge-soft-danger float-end">New</Badge>
-                                                        }
-
-                                                    </h5>
-                                                </div>
-                                            </div>
-                                        </Link>
-                                    </li>
-                                )
-                            }
-                        </ul>
-                    </SimpleBar>
-                    {/* End chat-group-list */}
+      {/* Group List */}
+      <SimpleBar className="p-4 chat-message-list chat-group-list">
+        <ul className="list-unstyled">
+          {groups.length > 0 ? (
+            groups.map((group, key) => (
+              <li
+                key={group.groupId || key}
+                className="group-item"
+                onClick={() => openUpdateModal(group)}
+              >
+                <div className="group-details">
+                  <div className="group-icon">
+                    {group.name.charAt(0).toUpperCase()}
+                  </div>
+                  <div className="group-info">
+                    <h5>{group.name}</h5>
+                    <small>{group.members?.length || 0} Members</small>
+                    <p>{group.description || "No description available"}</p>
+                  </div>
                 </div>
-            </React.Fragment>
-        );
-    }
-}
+                <Button
+                  color="danger"
+                  size="sm"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    dispatch(deleteGroupRequest(group.name));
+                    toast.success("Group deleted successfully!");
+                  }}
+                >
+                  {t("Delete")}
+                </Button>
+              </li>
+            ))
+          ) : (
+            <li className="text-center text-muted">{t("No groups found")}</li>
+          )}
+        </ul>
+      </SimpleBar>
 
-const mapStateToProps = (state) => {
-    const { groups, active_user } = state.Chat;
-    return { groups, active_user };
+      {/* Create Group Modal */}
+      <Modal isOpen={modal} toggle={toggle}>
+        <ModalHeader toggle={toggle}>{t("Create New Group")}</ModalHeader>
+        <ModalBody>
+          <Label>{t("Group Name")}</Label>
+          <Input
+            type="text"
+            className="mb-3"
+            value={groupName}
+            onChange={(e) => setGroupName(e.target.value)}
+          />
+          <Label>{t("Description")}</Label>
+          <Input
+            type="textarea"
+            className="mb-3"
+            value={groupDesc}
+            onChange={(e) => setGroupDesc(e.target.value)}
+          />
+          <Label>{t("Select Members")}</Label>
+          <SimpleBar className="border p-2" style={{ maxHeight: "150px" }}>
+            <SelectContact
+              handleCheck={handleCheck}
+              isSelected={(memberId) => isMemberSelected(memberId)}
+            />
+          </SimpleBar>
+        </ModalBody>
+        <ModalFooter>
+          <Button color="secondary" onClick={toggle}>
+            {t("Cancel")}
+          </Button>
+          <Button color="primary" onClick={createGroupHandler}>
+            {t("Create Group")}
+          </Button>
+        </ModalFooter>
+      </Modal>
+
+      {/* Update Group Modal */}
+      <Modal isOpen={updateModal} toggle={toggleUpdateModal}>
+        <ModalHeader toggle={toggleUpdateModal}>
+          {t("Update Group")} - {selectedGroup?.name}
+        </ModalHeader>
+        <ModalBody>
+          <Label>{t("Group Name")}</Label>
+          <Input
+            type="text"
+            className="mb-3"
+            value={groupName}
+            onChange={(e) => setGroupName(e.target.value)}
+          />
+          <Label>{t("Description")}</Label>
+          <Input
+            type="textarea"
+            className="mb-3"
+            value={groupDesc}
+            onChange={(e) => setGroupDesc(e.target.value)}
+          />
+          <Label>{t("Group Members")}</Label>
+          <SimpleBar className="border p-2" style={{ maxHeight: "150px" }}>
+            <SelectContact
+              handleCheck={handleCheck}
+              isSelected={isMemberSelected}
+            />
+          </SimpleBar>
+        </ModalBody>
+        <ModalFooter>
+          <Button color="secondary" onClick={toggleUpdateModal}>
+            {t("Cancel")}
+          </Button>
+          <Button color="primary" onClick={updateGroupHandler}>
+            {t("Save Changes")}
+          </Button>
+        </ModalFooter>
+      </Modal>
+    </React.Fragment>
+  );
 };
 
-export default (connect(mapStateToProps, { createGroup })(withTranslation()(Groups)));
+export default withTranslation()(Groups);

@@ -1,14 +1,12 @@
-﻿using System.Text.Json.Serialization;
+﻿using MongoDB.Bson.Serialization.Attributes;
+using System.Text.Json.Serialization;
 namespace ChatBE.Application.DTOs.GroupDTO
 {
     public class ActionGroupDTO
     {
-
-        [JsonPropertyName("performer")]
-        public Guid Performer { get; set; }
-        [JsonPropertyName("affectedPerson")]
-        public Guid AffectedPerson{ get; set; }
         [JsonPropertyName("groupId")]
         public Guid GroupId { get; set; }
+        [JsonPropertyName("members")]
+        public List<Guid> Members { get; set; }
     }
 }
