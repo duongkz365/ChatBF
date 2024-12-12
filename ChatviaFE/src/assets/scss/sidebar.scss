@@ -1,0 +1,50 @@
+/* Sidebar link styling */
+.sidebar-link {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Hover effect */
+  .sidebar-link:hover {
+    background-color: #d1dae4; /* Change to your preferred color */
+    color: white;
+    border-radius: 5px; 
+  }
+  
+  /* Active link styling */
+  .sidebar-link.active {
+    background-color: #9fadb4; /* Active link color */
+    color: white;
+    border-radius: 5px; 
+  }
+  .ri{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 5px; 
+    background-color: #f8f8f8; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+.ri:hover {
+  background-color: rgba(0, 0, 0, 0.1); 
+}
+.Status_Online {
+    color:#ffffff;
+    background:green;
+    border-Radius:5px;
+    padding: 5px 15px; 
+    }
+.Status_Offline {
+    color:'#ffffff';
+    background-color:gray;
+    
+    border-Radius:5px;
+    
+    padding: 5px 15px; 
+    }
